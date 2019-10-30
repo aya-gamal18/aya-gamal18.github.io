@@ -66,6 +66,7 @@ nav {
 
 }
 
+
 nav.scrolled {
 
   background: #1B242F;
@@ -78,9 +79,20 @@ nav.scrolled {
 
 .navbar {
 
-  padding-left: 38rem;
   margin: auto;
 
+}
+
+.navbar-nav {
+
+  margin: auto;
+
+}
+
+.navbar-collapse.show {
+
+  background-color: #292f47e8;
+  border-radius: 20px;
 }
 
 nav .link-wrap {
@@ -91,12 +103,6 @@ nav .link-wrap {
   transition: height .3s ease-out;
   text-align: center !important;
   font-size: large;
-
-}
-
-nav .link-wrap.visible {
-
-  height: 220px;
 
 }
 
@@ -111,14 +117,6 @@ nav .link-wrap div:hover {
 
   color: white;
 }
-
-.link-wrap.show {
-
-  background-color: #292f47e8;
-  border-radius: 20px;
-
-}
-
 
 
 .nav-link {
@@ -692,17 +690,26 @@ nav .active {
   padding: 3rem;
 }
 
+label {
+
+  float: left;
+
+}
+
 
 footer {
+
   background: #1B242F;
-  padding: 70px 0 50px 0;
+  padding: 1rem;
   position: relative;
+
 }
 
 .fa-arrow-alt-circle-up {
+
   color: white;
   position: absolute;
-  top: -25px;
+  top: -30px;
   background: #E31B6D;
   font-size: 30pt;
   width: 47px;
@@ -713,6 +720,7 @@ footer {
   margin: 0 auto;
   cursor: pointer;
   transition: background .5s;
+
 }
 
 .fa-arrow-alt-circle-up:hover {
@@ -720,6 +728,7 @@ footer {
   background: #fb1f79;
 
 }
+
 
 .icon-wrap,
 .icon {
@@ -729,7 +738,6 @@ footer {
   cursor: pointer;
   position: relative;
   text-align: center !important;
-  margin: 0 15px;
   font-size: 30pt;
   color: white;
   display: inline-block;
@@ -744,16 +752,17 @@ footer {
 
 }
 
-footer .icon-wrap .icon:hover .mdi {
+footer .icon-wrap .icon:hover {
+
   color: #fff;
 }
 
 
 
 footer .footnote {
+
   font-size: 10pt;
   color: #8F9AA7;
-  margin-top: 35px;
   opacity: 0.6;
 }
 

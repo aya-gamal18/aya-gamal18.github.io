@@ -1,312 +1,303 @@
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
 
-.navbar{
+    .navbar {
 
-    padding-left:0rem !important;
+        padding-left: 0rem !important;
 
-}
-#vantajs{
-
-padding:0rem;
-padding-top:8rem !important;
-margin:auto;
-
-}
-
-
-.show{
-
-
-}
-
-.header-text{
-
-font-size: 20pt;
-
-}
-
-.under-line{
-
-width:25%;
-
-}
-
-.under-line2{
-
-    width:25%;
-    
-}
-
-.demo{
-
-    padding-top:1rem;
-}
-
-.skill-bar{
-
-    padding-top: 2rem;
-
-}
-
-.skills{
-
-    padding-bottom: 3rem;
-    padding-top:3rem;
-
-}
-
-.img-fluid{
-
-    height: 200px;
-
-}
-
-.portfolio-caption{
-
-    font-size:40%;
-}
-
-.contact-form{
-    padding:1rem;
-}
-}
-
-@media only screen and (max-width: 767px){
-
-    .navbar{
-    
-        padding-left:0rem !important;
-    
     }
-    #vantajs{
-    
-    padding:0rem;
-    padding-top:8rem;
-    margin:auto;
-    
+
+    #vantajs {
+
+        padding: 0rem;
+        padding-top: 8rem !important;
+        margin: auto;
+
     }
-    
-    .header-text{
-    
-    font-size: 20pt;
-    
+
+
+    .show {}
+
+    .header-text {
+
+        font-size: 20pt;
+
     }
-    
-    .under-line{
-    
-    width:25%;
-    
+
+    .under-line {
+
+        width: 25%;
+
     }
-    
-    .under-line2{
-    
-        width:25%;
-        
+
+    .under-line2 {
+
+        width: 25%;
+
     }
-    
-    .demo{
-    
-        padding-top:1rem;
+
+    .demo {
+
+        padding-top: 1rem;
     }
-    
-    .skill-bar{
-    
+
+    .skill-bar {
+
         padding-top: 2rem;
-    
+
     }
-    
-    .skills{
-    
+
+    .skills {
+
         padding-bottom: 3rem;
-        padding-top:3rem;
-    
+        padding-top: 3rem;
+
     }
-    
-    .img-fluid{
-    
+
+    .img-fluid {
+
         height: 200px;
-    
-    }
-    
-    .portfolio-caption{
-    
-        font-size:40%;
+
     }
 
-    .contact-form{
-        padding:1rem;
+    .portfolio-caption {
+
+        font-size: 40%;
     }
 
-   
+    .contact-form {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .navbar {
+
+        padding-left: 0rem !important;
+
     }
 
-@media only screen and (max-width: 1023px){
+    #vantajs {
 
-        .navbar{
-        
-            padding-left:0rem !important;
-        
-        }
-        #vantajs{
-        
-        padding:0rem;
-        padding-top:12rem;
-        margin:auto;
-        
-        }
-        
-        .header-text{
-        
+        padding: 0rem;
+        padding-top: 8rem;
+        margin: auto;
+
+    }
+
+    .header-text {
+
+        font-size: 20pt;
+
+    }
+
+    .under-line {
+
+        width: 25%;
+
+    }
+
+    .under-line2 {
+
+        width: 25%;
+
+    }
+
+    .demo {
+
+        padding-top: 1rem;
+    }
+
+    .skill-bar {
+
+        padding-top: 2rem;
+
+    }
+
+    .skills {
+
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+
+    }
+
+    .img-fluid {
+
+        height: 200px;
+
+    }
+
+    .portfolio-caption {
+
+        font-size: 40%;
+    }
+
+    .contact-form {
+        padding: 1rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+    .navbar {
+
+        padding-left: 0rem !important;
+
+    }
+
+    #vantajs {
+
+        padding: 0rem;
+        padding-top: 12rem;
+        margin: auto;
+
+    }
+
+    .header-text {
+
         font-size: 30pt;
-        
-        }
-        
-        .under-line{
-        
-        width:15%;
-        
-        }
-        
-        .under-line2{
-        
-            width:25%;
-            
-        }
-        
-        .demo{
-        
-            padding-top:1rem;
-        }
-        
-        .skill-bar{
-        
-            padding-top:0 rem;
-        
-        }
-        
-        .skills{
-        
-            padding-bottom: 3rem;
-            padding-top:3rem;
-        
-        }
 
-        .INTRO{
+    }
 
-            font-size: 66%;
-        }
+    .under-line {
 
-       
-        .img-fluid{
-        
-            height: 200px;
-        
-        }
-        
-        .portfolio-caption h4{
-        
-            font-size:14pt;
+        width: 15%;
 
-        }
+    }
 
-        .portfolio-caption p{
-        
-            font-size:12px !important;
-            
-        }
-    
-        .contact-form{
-            padding:1rem;
-            padding-bottom: 2rem;
-        }
-    
-       
-        }
+    .under-line2 {
 
-        @media only screen and (max-width: 1200px){
+        width: 25%;
 
-         
-        .navbar{
-        
-            padding-left:23rem;
-        
-        }
-        #vantajs{
-        
-        padding:0rem;
-        padding-top:10rem;
-        margin:auto;
-        
-        }
-        
-        .header-text{
-        
+    }
+
+    .demo {
+
+        padding-top: 1rem;
+    }
+
+    .skill-bar {
+
+        padding-top: 0 rem;
+
+    }
+
+    .skills {
+
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+
+    }
+
+    .INTRO {
+
+        font-size: 66%;
+    }
+
+
+    .img-fluid {
+
+        height: 200px;
+
+    }
+
+    .portfolio-caption h4 {
+
+        font-size: 14pt;
+
+    }
+
+    .portfolio-caption p {
+
+        font-size: 12px !important;
+
+    }
+
+    .contact-form {
+        padding: 1rem;
+        padding-bottom: 2rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+
+    #vantajs {
+
+        padding: 0rem;
+        padding-top: 10rem;
+        margin: auto;
+
+    }
+
+    .header-text {
+
         font-size: 30pt;
-        
-        }
-        
-        .under-line{
-        
-        width:15%;
-        
-        }
-        
-        .under-line2{
-        
-            width:15%;
-            
-        }
-        
-        .demo{
-        
-            padding-top:1rem;
-        }
-        
-        .skill-bar{
-        
-            padding-top:0 rem;
-        
-        }
-        
-        .skills{
-        
-            padding-bottom: 3rem;
-            padding-top:3rem;
-        
-        }
 
-        .INTRO{
+    }
 
-            font-size: 90%;
-        }
+    .under-line {
 
-       
-        .img-fluid{
-        
-            height: 200px;
-        
-        }
-        
-        .portfolio-caption h4{
-        
-            font-size:14pt;
+        width: 15%;
 
-        }
+    }
 
-        .portfolio-caption p{
-        
-            font-size:12px !important;
-            
-        }
-    
-        .contact-form{
-            padding:1rem;
-            padding-bottom: 2rem;
-        } 
-         
-         }
-        
-    
-    
-    
-    
+    .under-line2 {
+
+        width: 15%;
+
+    }
+
+    .demo {
+
+        padding-top: 1rem;
+    }
+
+    .skill-bar {
+
+        padding-top: 0 rem;
+
+    }
+
+    .skills {
+
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+
+    }
+
+    .INTRO {
+
+        font-size: 90%;
+    }
+
+
+    .img-fluid {
+
+        height: 200px;
+
+    }
+
+    .portfolio-caption h4 {
+
+        font-size: 14pt;
+
+    }
+
+    .portfolio-caption p {
+
+        font-size: 12px !important;
+
+    }
+
+    .contact-form {
+        padding: 1rem;
+        padding-bottom: 2rem;
+    }
+
+}

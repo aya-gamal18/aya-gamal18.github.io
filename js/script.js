@@ -16,7 +16,9 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
-
+$('.navbar-collapse a').click(function(){
+  $(".navbar-collapse").collapse('hide');
+});
 
 
   VANTA.FOG({
