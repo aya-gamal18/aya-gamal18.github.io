@@ -1,0 +1,271 @@
+/* small phones from 0 to 480px*/
+
+@media only screen and (max-width: 480px){
+
+
+    .microsoft{
+   
+        margin-top:8rem;
+
+    }
+    
+    .offer-card{
+
+        width: 14rem !important;
+
+    }
+
+    .offers-img{
+
+     margin-left: 4rem !important;
+
+    }
+    
+    .article-card{
+
+            width: 16rem !important;
+            padding:0rem;
+            
+        }
+
+ .who-text{
+
+            text-align: center;
+            font-size: 100%;
+            
+       }
+
+    
+
+    #owl-offers{
+
+        padding-bottom: 0rem;
+    }
+
+    
+
+       #footer-vec {
+
+    width: 30%;
+    margin-right:6rem !important;
+
+    }
+
+
+    .address {
+
+        font-size: 10px;
+        text-align: right;
+        margin-right: 1rem;
+    }
+
+    .social{
+    
+
+       width: 100%;
+
+       margin: auto !important;
+
+       font-size: 21px !important;
+    
+       padding-right: 4rem !important;
+
+    
+    }
+
+    .footer-logo{
+
+margin-right: 1rem;
+
+    }
+
+    .footer-text{
+
+        margin: auto;
+        font-size: small !important;
+        margin-right: 1rem;
+    }
+
+    .clients{
+
+        padding-right: 0rem;
+    }
+
+    .my-card{
+
+        width: 100% !important;
+
+    }
+
+    .one-img{
+
+        width: 310px;
+        margin: auto;
+        padding-right: 2rem;
+
+    }
+
+}
+
+/* small phones to small tablets 481px to 767 px*/
+
+@media only screen and (max-width: 767px){
+
+    .who-text{
+
+        text-align: center;
+    }
+
+    .article-card{
+
+        width: 16rem !important;
+    
+    }
+
+
+
+}
+
+/* small tablets to big tablets 768px to 1023px*/
+
+@media only screen and (max-width: 1023px){
+
+    .header-text{
+    
+        margin-top:0rem;
+        visibility: visible;
+        font-size: -webkit-xxx-large;
+        backface-visibility: visible;
+        font-family: cairo;
+
+    }
+
+.who-img{
+
+    margin-top:12rem;
+
+}
+
+
+#owl-offers {
+   
+        margin: auto;
+        width:100%;
+
+    }
+
+.owl-carousel .owl-item img{
+
+        width:140px;
+
+       }
+
+    
+.work-card{
+
+        width: 14rem !important;
+
+    }
+
+.article-card{
+
+        width: 16rem !important;
+    
+    }
+
+
+    #footer-vec {
+
+        width: 40%;
+        
+        margin-right: 4rem;
+        margin-top:2rem;
+    
+    }
+
+
+    .footer-text{
+
+        font-size: large;
+
+    }
+
+    .clients{
+
+        padding-right: 0rem;
+
+    }
+    .address {
+
+        font-size: medium;
+        padding:1rem;
+        font-family: cairo;
+        margin-right: 3rem;
+
+    }
+
+    
+    .social{
+    
+        font-size: 24px !important;
+       
+        margin:  auto;
+        padding: 0rem;
+        
+    
+    }
+
+
+}
+
+/*big tablet to 1200px smaller than 1140px row */
+@media only screen and (max-width: 1200px){
+
+   .header-container{
+
+       width: 100%;
+    
+   }
+
+   #owl-clients{
+
+    width:100%;
+    margin:auto;
+
+   }
+
+   .owl-carousel{
+
+    margin: auto;
+
+}
+
+   .owl-theme .owl-nav {
+    
+    font-size: 50px;
+    text-align: center;
+    margin-right: rem;
+    margin: auto;
+
+}
+
+.header-text{
+
+    margin-top:5rem;
+
+}
+
+.social{
+    
+    font-size: 35px;
+    margin:  auto;
+    margin-right:3rem;
+    
+}
+
+.high{
+
+    
+}
+
+}
