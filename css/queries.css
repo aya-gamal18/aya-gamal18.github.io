@@ -53,6 +53,11 @@
 
     }
 
+
+    .INTRO{
+    Font-size:60%;
+    }
+
     .img-fluid {
 
         height: 200px;
@@ -120,6 +125,10 @@
         padding-top: 3rem;
 
     }
+     
+    .INTRO{
+    font-size:60%;
+     }
 
     .img-fluid {
 
