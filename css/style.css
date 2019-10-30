@@ -66,13 +66,13 @@ nav {
 
 }
 
-nav.scrolled{
+nav.scrolled {
 
-background: #1B242F;
-border-bottom: 3px solid #04C2C9;
-text-align: center !important;
-height: 50px;
-transition-duration: 1s;
+  background: #1B242F;
+  border-bottom: 3px solid #04C2C9;
+  text-align: center !important;
+  height: 50px;
+  transition-duration: 1s;
 
 }
 
@@ -116,7 +116,7 @@ nav .link-wrap div:hover {
 
   background-color: #292f47e8;
   border-radius: 20px;
-  
+
 }
 
 
@@ -524,7 +524,7 @@ nav .active {
   text-align: center;
 }
 
-.img-modal{
+.img-modal {
 
   width: 500px;
   height: 350px;
@@ -635,36 +635,36 @@ nav .active {
 
 }
 
-#exampleModalCenter{
+#exampleModalCenter {
 
   position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1050;
-    display: none;
-    width: 100%;
-    height: 40%;
-    overflow: hidden;
-    outline: 0;
-    margin-top: 12rem;
-  
+  top: 0;
+  right: 0;
+  z-index: 1050;
+  display: none;
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+  outline: 0;
+  margin-top: 12rem;
+
 
 }
 
-#modal-content2{
+#modal-content2 {
 
   position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 100%;
-    pointer-events: auto;
-    background-color: rgb(243, 241, 241);
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.2);
-    border-radius: .3rem;
-    outline: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: rgb(243, 241, 241);
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: .3rem;
+  outline: 0;
 }
 
 .modal-header {
@@ -684,7 +684,8 @@ nav .active {
   position: relative;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1rem;}
+  padding: 1rem;
+}
 
 .contact-form {
 
