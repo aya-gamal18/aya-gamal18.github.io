@@ -397,7 +397,6 @@ nav .active {
   color: gray;
 }
 
-.about-img {}
 
 .skill-bar {
 
@@ -690,10 +689,11 @@ nav .active {
   padding: 3rem;
 }
 
-label {
+
+
+label{
 
   float: left;
-
 }
 
 
