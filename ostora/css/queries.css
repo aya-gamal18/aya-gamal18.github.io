@@ -1,0 +1,1400 @@
+/* small phones from 0 to 480px*/
+
+@media only screen and (max-width: 320px)
+
+{
+
+    body{
+
+        margin: auto;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+    }
+
+    .who-btn{
+
+        padding: 0.5rem 2rem;
+    }
+.form-inline{
+    text-align: center;
+}
+    .bg-light{
+        text-align: center;
+    
+    }
+    #dropdownMenuButton1 {
+        padding: 1rem 1rem;
+        margin-right: 0.5rem;
+    }
+
+    #dropdownMenuButton {
+        padding: 1rem 2rem;
+    }
+    .map{
+
+        width:100%;
+    }
+
+    .landmark-sale{
+
+        text-align: center;
+        margin-top: 2rem;
+    }
+   
+
+    .lightbox-img {
+
+        display: block;
+        
+        border-radius: 20px;
+        width: 100%;
+        margin-bottom: 1rem;
+
+    
+    }
+
+
+    .more-realestate {
+
+        padding: 0rem;
+
+    }
+    .nav-img{
+
+        text-align: center;
+        margin: 0 auto;
+        padding-right: 0rem;
+      
+      }
+
+      .header-content{
+
+            z-index: 1;
+            margin: 0 auto;
+            text-align: center;
+        
+            margin-left: 0rem;
+        
+
+        }
+        .video-wrap{
+
+            height: 65%;
+            overflow:hidden;
+        
+        }
+        
+        .video-wrap video{
+        
+            min-width: 100%;
+            min-height: 100%;
+            z-index:-1;
+        
+        }
+        
+        .header-overlay{
+        
+            height: 65%;
+           
+        }
+        
+        .header-content h1{
+
+            font-size: 20px;
+            padding: 3rem;
+            color: white;
+            margin-top: 4rem;
+            TEXT-ALIGN: CENTER;
+            margin-bottom: 0rem;
+
+          }
+             
+
+        .v-header{
+
+            margin: auto;
+            text-align: center;
+            margin-bottom:1rem;
+
+        }
+
+        .offer-container{
+
+            margin-right:0rem;
+            margin: auto;
+            
+            }
+
+    .offer-card{
+
+        margin:auto;
+    }
+
+        #what-offer{
+
+            margin-top: 0rem;
+            text-align:center;
+
+        }
+
+        .where-card{
+
+            margin-top:2rem;
+            margin-right: 1rem;
+
+        }
+
+        .sub {
+
+            width: 24%;
+            
+            display: contents;
+            
+          }
+        
+          .outer{
+
+              margin: auto;
+              text-align: center;
+          }
+
+          #footer-vec{
+
+            width: 200px;
+
+          }
+
+          .footer-text{
+              text-align: center;
+          }
+
+          .slider-input{
+
+            width:200px;
+
+        }
+
+        .pagination{
+            
+            padding-left: 0rem;
+
+        }
+
+        .pages-nav{
+
+            padding-left:0rem;
+            padding-right:0rem;
+        }
+
+       
+.slide-div2{
+
+margin-bottom: 2rem;
+text-align: center;
+display: block;
+visibility: visible;
+}
+
+.slide-div1{
+
+display: none; 
+ visibility: hidden;
+    
+    }
+
+.sale-col{
+
+    position: relative;
+}
+
+.sale-row{
+
+   
+}
+
+.btn-link{
+    padding: 0rem;
+
+}
+
+.staff-row{
+    margin:auto;
+
+}
+
+#staff{
+    padding:0rem;
+    margin:auto;
+    margin-right:0.5rem;
+}
+
+            
+}
+
+@media only screen and ( min-width: 321px) and (max-width:374px)
+
+{
+
+    .who-btn{
+
+        padding: 0.5rem 2rem;
+    }
+  
+    .form-inline{
+        text-align: center;
+    }
+        .bg-light{
+            text-align: center;
+        
+        }
+        #dropdownMenuButton1 {
+            padding: 1rem 1rem;
+            margin-right: 0.5rem;
+        }
+    
+        #dropdownMenuButton {
+            padding: 1rem 3rem;
+        }
+        .map{
+    
+            width:100%;
+        }
+    
+        .landmark-sale{
+    
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+    .lightbox-img {
+
+        display: block;
+        
+        border-radius: 20px;
+        width: 100%;
+        margin-bottom: 1rem;
+        
+    
+    }
+
+    .more-realestate{
+        padding: 0rem;
+    }
+    body{
+
+        margin: auto;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+    }
+
+    .nav-img{
+
+        text-align: center;
+        margin: 0 auto;
+        padding-right: 0rem;
+      
+      }
+
+      .header-content{
+
+            z-index: 1;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 3rem;
+            margin-left: 0rem;
+            margin-bottom: 4rem;
+
+        }
+        .video-wrap{
+
+            height: 50%;
+            overflow:hidden;
+        
+        }
+        
+        .video-wrap video{
+        
+            min-width: 100%;
+            min-height: 100%;
+            z-index:-1;
+        
+        }
+        
+        .header-overlay{
+        
+            height: 50%;
+           
+        }
+
+        .offer-card{margin:auto;}
+        
+        .header-content h1{
+
+            font-size: 20px;
+            color: white;
+            padding:3rem;
+            TEXT-ALIGN: CENTER;
+            margin-bottom: 0rem;
+
+          }
+             
+
+        .v-header{
+
+            margin: auto;
+            text-align: center;
+            display: block;
+
+        }
+
+        .offer-container{
+
+            text-align: center;
+            
+            }
+
+        #what-offer{
+
+            margin:auto;
+            text-align: center;
+
+
+        }
+.row{
+    margin: auto;
+}
+        .where-card{
+
+            margin-top:2rem;
+            margin-right:1rem;
+        }
+
+        .sub {
+
+            width: 24%;
+            
+            display: contents;
+            
+          }
+        
+          .outer{
+
+              margin: auto;
+              text-align: center;
+          }
+
+          #footer-vec{
+
+            width: 200px;
+
+          }
+
+          .footer-text{
+              text-align: center;
+          }
+
+          .slider-input{
+
+            width:200px;
+
+        }
+
+        .pagination{
+            
+            padding-left: 0rem;
+
+        }
+
+        .pages-nav{
+
+            padding-left:0rem;
+            padding-right:0rem;
+        }
+
+        .btn-link{
+            padding: 0rem;
+        
+        }
+
+       
+.slide-div2{
+
+margin-bottom: 2rem;
+text-align: center;
+display: block;
+visibility: visible;
+}
+
+.slide-div1{
+
+    display: none; 
+     visibility: hidden;
+    
+    
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 480px)
+
+{
+
+    .staff-card{
+
+        margin-bottom: 2rem !important;
+    
+    margin: auto;
+
+    }
+    .who-btn{
+
+        padding: 0.5rem 2rem;
+    }
+
+.form-inline{
+    text-align: center;
+}
+    .bg-light{
+        text-align: center;
+    
+    }
+    #dropdownMenuButton1 {
+        padding: 1rem 1rem;
+        margin-right: 0.5rem;
+    }
+
+    #dropdownMenuButton {
+        padding: 1rem 2rem;
+    }
+    .map{
+
+        width:100%;
+    }
+
+    .landmark-sale{
+
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .lightbox-img {
+
+        display: block;
+        
+        border-radius: 20px;
+        width: 100%;
+        margin-bottom: 1rem;
+        
+    
+    }
+
+    .more-realestate{
+        padding: 0rem;
+    }
+    body{
+
+        margin: auto;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+    }
+
+    .nav-img{
+
+        text-align: center;
+        margin: 0 auto;
+        padding-right: 0rem;
+      
+      }
+
+      .header-content{
+
+            z-index: 1;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 3rem;
+            margin-left: 0rem;
+            margin-bottom: 4rem;
+
+        }
+        .video-wrap{
+
+            height: 55%;
+            overflow:hidden;
+        
+        }
+        
+        .video-wrap video{
+        
+            min-width: 100%;
+            min-height: 100%;
+            z-index:-1;
+        
+        }
+        
+        .header-overlay{
+        
+            height: 55%;
+           
+        }
+        
+        .header-content h1{
+
+            font-size: 20px;
+            padding: 3rem;
+            color: white;
+            margin-top: 6rem;
+            TEXT-ALIGN: CENTER;
+            margin-bottom: 2rem;
+
+          }
+             
+
+        .v-header{
+
+            margin: auto;
+            text-align: center;
+
+        }
+
+        .offer-container{
+
+            text-align: center;
+            
+            
+            }
+
+        #what-offer{
+
+            margin:auto;
+            text-align: center;
+            margin-top:3rem;
+
+
+        }
+         .row{
+          margin: auto;
+}
+
+.offer-card{
+
+    margin:auto;
+
+}
+        .where-card{
+
+            margin: auto;
+            margin-top: 2rem;
+            
+        }
+
+     .flip-card{
+
+    margin: auto;
+    margin-bottom:1rem;
+
+             }
+
+        .sub {
+
+            width: 24%;
+            
+            display: contents;
+            
+          }
+        
+          .outer{
+
+              margin: auto;
+              text-align: center;
+          }
+
+          #footer-vec{
+
+            width: 200px;
+
+          }
+
+          .footer-text{
+              text-align: center;
+          }
+
+          .slider-input{
+
+            width:200px;
+
+        }
+
+        .pagination{
+            
+            padding-left: 0rem;
+
+        }
+
+        .pages-nav{
+
+            padding-left:0rem;
+            padding-right:0rem;
+        }
+        .btn-link{
+            padding: 0rem;
+        
+        }
+
+       
+.slide-div2{
+
+margin-bottom: 2rem;
+text-align: center;
+display: block;
+visibility: visible;
+}
+
+.slide-div1{
+
+    display: none; 
+     visibility: hidden;
+    
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width:768px)
+
+{
+
+    .staff-card{
+
+        margin-bottom: 2rem !important;
+    
+    margin: auto;
+    }
+    .who-btn{
+
+        padding: 0.5rem 2rem;
+    }
+
+.form-inline{
+    text-align: center;
+}
+    .bg-light{
+        text-align: center;
+    
+    }
+    #dropdownMenuButton1 {
+        padding: 1rem 1rem;
+        margin-right: 0.5rem;
+    }
+
+    #dropdownMenuButton {
+        padding: 1rem 2rem;
+    }
+    .map{
+
+        width:100%;
+    }
+
+    .landmark-sale{
+
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .lightbox-img {
+
+        display: block;
+        
+        border-radius: 20px;
+        width: 100%;
+        margin-bottom: 1rem;
+        
+    
+    }
+
+    .more-realestate{
+        padding: 0rem;
+    }
+    body{
+
+        margin: auto;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+    }
+
+    .nav-img{
+
+        text-align: center;
+        margin: 0 auto;
+        padding-right: 0rem;
+      
+      }
+
+      .header-content{
+
+            z-index: 1;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 3rem;
+            margin-left: 0rem;
+            margin-bottom: 3rem;
+
+        }
+        .video-wrap{
+
+            height: 55%;
+            overflow:hidden;
+        
+        }
+        
+        .video-wrap video{
+        
+            min-width: 100%;
+            min-height: 100%;
+            z-index:-1;
+        
+        }
+        
+        .header-overlay{
+        
+            height: 55%;
+           
+        }
+        
+        .header-content h1{
+
+            font-size: 20px;
+            padding: 3rem;
+            color: white;
+            margin-top: 2rem;
+            TEXT-ALIGN: CENTER;
+            margin-bottom: 2rem;
+
+          }
+             
+
+        .v-header{
+
+            margin: auto;
+            text-align: center;
+
+        }
+
+        .offer-container{
+
+            text-align: center;
+            
+            }
+
+        #what-offer{
+
+            margin:auto;
+            text-align: center;
+            margin-top:2rem;
+
+
+        }
+         .row{
+          margin: auto;
+}
+
+.offer-card{
+
+    margin:auto;
+    padding-left:3rem;
+
+}
+        .where-card{
+
+            margin: auto;
+            text-align:center;
+            padding-right:1rem;
+            
+        }
+
+     .flip-card{
+
+    margin: auto;
+    margin-bottom:1rem;
+
+             }
+
+        .sub {
+
+            width: 24%;
+            
+            display: contents;
+            
+          }
+        
+          .outer{
+
+              margin: auto;
+              text-align: center;
+          }
+
+          #footer-vec{
+
+            width: 200px;
+
+          }
+
+          .footer-text{
+              text-align: center;
+          }
+
+          .slider-input{
+
+            width:200px;
+
+        }
+
+        .pagination{
+            
+            padding-left: 0rem;
+
+        }
+
+        .pages-nav{
+
+            padding-left:0rem;
+            padding-right:0rem;
+        }
+        .btn-link{
+            padding: 0rem;
+        
+        }
+
+       
+.slide-div2{
+
+margin-bottom: 2rem;
+text-align: center;
+display: block;
+visibility: visible;
+}
+
+.slide-div1{
+
+    display: none; 
+     visibility: hidden;
+    
+    }
+}
+@media only screen and (min-width: 767px) and (max-width:1023px)
+
+{
+
+    .staff-row{
+
+        padding-left:3rem;
+        
+       padding-right:0rem;
+          
+      }
+    .staff-row{
+        margin-right: 2rem !important;
+    }
+    .staff-col{
+
+        flex: 2 0 33.333333%;
+    max-width: 50.333333%;
+
+    }
+    .landmark-btn1{
+        padding: 0.5rem 2rem;
+    }
+
+    .landmark-btn{
+        padding: 0.5rem 2rem;
+    }
+
+    .form-inline{
+        text-align: center;
+    }
+        .bg-light{
+            text-align: center;
+        
+        }
+        #dropdownMenuButton1 {
+            padding: 1rem 1rem;
+            margin-right: 0.5rem;
+        }
+    
+        #dropdownMenuButton {
+            padding: 1rem 3rem;
+        }
+        .map{
+    
+            width:100%;
+        }
+    .lightbox-img {
+
+        display: inline-block;
+        
+        border-radius: 20px;
+        width: 100%;
+        margin-bottom: 1rem;
+        
+    
+    }
+
+    .more-realestate{
+        padding: 0rem;
+    }
+    body{
+
+        margin: auto;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+    }
+
+    .nav-img{
+
+        text-align: center;
+        margin: 0 auto;
+        padding-right: 2rem;
+      
+      }
+
+        .header-content{
+
+            z-index: 1;
+            margin: 0 auto;
+            text-align: center;
+            
+            margin-left: 0rem;
+            margin-bottom: 4rem;
+
+        }
+
+        .video-wrap{
+
+            height: 33% !important;
+            overflow:hidden;
+        
+        }
+        
+        .video-wrap video{
+        
+            min-width: 100%;
+            min-height: 100%;
+            z-index:-1;
+        
+        }
+        
+        .header-overlay{
+        
+            height: 33% !important;
+           
+        }
+        
+        .header-content h1{
+
+            font-size: 20px;
+            padding: 3rem;
+            color: white;
+            
+            TEXT-ALIGN: CENTER;
+            margin-bottom: 2rem;
+
+          }
+             
+
+        .v-header{
+
+            margin: auto;
+            text-align: center;
+
+        }
+
+        .offer-container{
+
+            text-align: center;
+            
+            }
+
+        #what-offer{
+
+            margin:auto;
+            text-align: center;
+            margin-top:2rem;
+
+
+        }
+
+        .home-card-body{
+            padding-top:3rem;
+        }
+
+         .row{
+
+          margin: auto;
+}
+
+.offer-card{
+
+    margin:auto;
+
+}
+        .where-card{
+
+            margin: auto;
+            padding-left:3rem;
+            width:12rem !important;
+            
+        }
+
+     .flip-card{
+
+    margin: auto;
+    margin-bottom:1rem;
+    width:14rem;
+
+
+             }
+
+             .for-sale-card{
+
+             width:14rem !important;
+
+             }
+
+
+        .sub {
+
+            width: 24%;
+            
+            display: contents;
+            
+          }
+        
+          .outer{
+
+              margin: auto;
+              text-align: center;
+          }
+
+          #footer-vec{
+
+            width: 200px;
+
+          }
+
+          .footer-text{
+              text-align: center;
+          }
+
+          .slider-input{
+
+            width:150px;
+
+        }
+
+        .pagination{
+            
+            padding-left: 7rem;
+
+        }
+
+        .sale-col{
+
+    flex: 0 0 25%;
+    max-width: 40%;
+
+        }
+
+        .slide-div1{
+
+            position: absolute;
+            top: 175px;
+            right: 540px;
+        display:block;
+        visibility: visible;
+        }
+
+        .slide-div2{
+
+        display: none;
+        visibility: hidden;
+
+        }
+        .pages-nav{
+
+            padding-left:0rem;
+            padding-right:0rem;
+        }
+}
+
+@media only screen and (min-width: 1023px) and (max-width:1200px)
+
+{
+
+    .lightbox-img {
+
+        
+        border-radius: 20px;
+        width: 100%;
+        margin-bottom: 1rem;
+        
+    
+    }
+
+    .more-realestate{
+        padding: 0rem;
+    }
+
+    body{
+
+        margin: auto;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+    }
+
+    .staff-row{
+        padding-right:0rem;
+      }
+    .nav-img{
+
+        text-align: center;
+        margin: 0 auto;
+        margin-right: 3rem;
+      
+      }
+
+      .header-content{
+
+            z-index: 1;
+            margin: 0 auto;
+            text-align: center;
+            
+            margin-left: 0rem;
+            margin-bottom: 4rem;
+
+        }
+        .video-wrap{
+
+            height: 40%;
+            overflow:hidden;
+        
+        }
+        
+        .video-wrap video{
+        
+            min-width: 100%;
+            min-height: 100%;
+            z-index:-1;
+        
+        }
+        
+        .header-overlay{
+        
+            height: 40%;
+           
+        }
+        
+        .header-content h1{
+
+            font-size: 40px;
+            padding: 3rem;
+            color: white;
+            margin-top:3rem;
+            TEXT-ALIGN: CENTER;
+            margin-bottom: 4rem;
+
+          }
+             
+
+        .v-header{
+
+            margin: auto;
+            text-align: center;
+
+        }
+
+        .offer-container{
+
+            text-align: center;
+            
+            }
+
+        #what-offer{
+
+            margin:auto;
+            text-align: center;
+            margin-top:2rem;
+
+
+        }
+         .row{
+
+          margin: auto;
+}
+
+.offer-card{
+
+    margin:auto;
+
+}
+        .where-card{
+
+            margin: auto;
+            padding-left:3rem;
+            width:12rem !important;
+            
+        }
+
+     .flip-card{
+
+    
+    margin-bottom:1rem;
+    width:15rem;
+
+
+             }
+
+             .home-card-body{
+
+                 padding-top:3rem;
+             }
+
+             .for-sale-card{
+
+             width:15rem !important ;
+
+
+             }
+
+
+        .sub {
+
+            width: 24%;
+            
+            display: table-cell;
+            
+          }
+        
+          .outer{
+
+              margin: auto;
+              text-align: center;
+          }
+
+          .footer-vec{
+
+                padding-left: 1rem;
+                padding-top:1rem;
+                width:300px;
+                
+          }
+
+          .footer-text{
+              text-align: center;
+          }
+
+         .slider-input{
+
+            width:200px;
+
+        }
+
+        .pagination{
+
+            padding-left: 7rem;
+
+        }
+
+        .slider-input{
+
+            width:150px;
+
+        }
+
+        .pagination{
+            
+            padding-left: 7rem;
+
+        }
+
+        .sale-col{
+
+    flex: 0 0 25%;
+    max-width: 40%;
+
+        }
+
+        .slide-div1{
+
+            position: absolute;
+            top: 285px;
+            right: 766px;
+             display:block;
+             visibility: visible;
+             padding-right: 4rem;
+
+        }
+
+        .slide-div2{
+
+        display: none;
+        visibility: hidden;
+
+        }
+        .pages-nav{
+
+            padding-left:0rem;
+            padding-right:0rem;
+        }
+
+
+
+          
+}
+
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+
+      float: right;
+      display: block;
+
+    }
+
+
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+
+    .topnav .pages-nav .responsive {
+
+     position: relative;
+     display: block;
+     padding: 2rem;
+
+    }
+
+    #logo{
+        
+        display: none;
+    
+    }
+
+    .topnav .pages-nav .responsive a.icon {
+
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 2rem;
+    
+    }
+    .topnav.responsive .pages-nav a {
+
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }

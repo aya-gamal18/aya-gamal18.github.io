@@ -1,0 +1,858 @@
+
+
+*{
+
+    box-sizing: border-box;
+
+ }
+
+body{
+
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color:gray;
+    overflow-x: hidden;
+    text-align: right;
+    font-family: 'El Messiri', sans-serif;
+    direction: rtl;
+
+}
+
+
+html, body{
+  height: 100%;
+}
+
+
+
+.navbar {
+
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+user agent stylesheet
+nav {
+  display: block;
+}
+
+.navbar-toggler-icon{
+
+
+}
+
+.home-nav{
+
+  background: transparent;
+  width: 100%;
+  height: 20%;
+  
+}
+
+
+.home-nav a{
+
+  text-decoration: none !important ;
+  color: white;
+  margin: auto;
+  display:block;
+
+}
+
+/* Change the color of links on hover */
+
+.home-nav a:hover{
+
+  color: rgb(46, 46, 109);
+
+}
+
+.pages-nav{
+
+  width: 100%;
+  height: 25%;
+  background: rgb(212, 101, 10);
+  align-items: center;
+  justify-content: center;
+  padding-left: 8rem;
+  padding-right:8rem;
+
+}
+
+.pages-nav a{
+
+  text-decoration: none !important ;
+  color: white;
+  margin: auto;
+  display:block;
+
+}
+
+
+a{
+
+  text-decoration: none !important ;
+  margin: auto;
+  text-align:center;
+
+}
+
+.n-hov{
+  
+  color: white;
+
+}
+
+.n-hov a:hover{
+  
+color:rgb(47, 47, 121);
+
+}
+
+#footer a:hover{
+
+  color:rgb(248, 134, 3);
+
+}
+
+#logo{
+  
+  background: transparent;
+  margin:auto;
+  
+}
+
+.nav-img{
+
+  text-align: center;
+  margin: 0 auto;
+  padding-right: 2rem;
+  width:150px !important;
+  height: 150px !important;
+
+}
+
+.v-header{
+
+    height: 100%;
+    display: block;
+    align-items: center;
+    color: white;
+
+}
+
+.container{
+
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+
+}
+
+.video-wrap{
+
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 80%;
+    overflow:hidden;
+    z-index: -1;
+    
+
+}
+
+.video-wrap video{
+
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-1;
+
+}
+
+.header-overlay{
+
+    height:80%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    background: rgb(187, 61, 23);
+    z-index: -1;
+    opacity: 0.6;
+
+}
+
+.header-content{
+
+z-index: 1;
+margin: 0 auto;
+text-align: center;
+margin-top: 10rem;
+
+
+
+}
+
+
+.header-content h1{
+
+  font-size: 40px;
+  color: white;
+  TEXT-ALIGN: CENTER;
+  margin-bottom: 2rem;
+}
+    
+
+.watch-more{
+
+    background: rgb(3, 3, 66);
+    color: white;
+    font-size: 1.5 rem;
+    text-decoration: none;  
+    padding: 0.5rem 3rem;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+
+}
+
+.watch-more:hover{
+
+  color: orange;
+
+}
+
+.dropdown-menu.show {
+
+  display: block;
+  background-color: rgb(3, 3, 66);
+  border-radius: 20px;
+
+}
+
+.dropdown-item{
+
+  color: white !important;
+
+}
+
+.dropdown-menu2.show {
+
+  display: block;
+  background-color: gray;
+  border-radius: 20px;
+
+}
+
+.dropdown-item2{
+
+  color: white;
+
+}
+
+.fas,.far{
+
+  color:rgb(223, 88, 39);
+
+}
+
+.card-title{
+
+   text-align:center;
+
+}
+
+.under-line{
+
+    border-bottom: 2px solid rgb(221, 87, 34);
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+
+}
+
+.head-line{
+
+  margin: auto;
+  padding:2rem;
+  color:rgb(29, 45, 75);
+  text-align:center;
+
+}
+
+.head-line2{
+
+  margin: auto;
+  padding:2rem;
+  color:rgb(255, 255, 255);
+  text-align:center;
+
+}
+
+#what-offer{
+
+padding-bottom:1rem;
+margin-top: 8rem;
+
+}
+
+
+
+.img-rent{
+
+padding-bottom:1rem;
+
+}
+
+.card{
+
+  border: none;
+  border-radius: 30px;
+  
+}
+
+.offers-img{
+
+  width: 50%;
+ margin: auto;
+
+}
+
+.offer-a{
+
+  color: gray;
+
+}
+
+.offer-a:hover{
+
+  color:gray;
+  
+}
+
+#where{
+
+  margin: auto;
+
+  color:gray;
+  margin-bottom: 4rem;
+
+}
+
+.form-control{
+
+  margin-bottom: 0.5rem;
+  border-radius: 15px;
+}
+
+.form-control-md{
+
+padding-top: 1rem;
+padding-bottom: 6rem;
+margin-bottom: 2rem;
+
+}
+
+.card-shadow{
+
+  box-shadow: 0 20px 30px rgba(177, 166, 166, 0.8);
+  border-radius: 30px;
+  
+  }
+  
+.card-text{
+
+  color:gray;
+
+text-align: center;
+
+}
+
+.where-img{
+
+  width:150px;
+  transform: rotate(20deg);
+  margin: auto;
+  border-radius: 20px;
+}
+
+.flip-card {
+
+  background-color: transparent;
+  width: 290px;
+  height: 400px;
+  border: none;
+  perspective: 1000px;
+  margin-bottom: 2rem;
+  border-radius: 30px;
+
+  }
+  
+
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 30px;
+    height: 400px;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+
+    background-color: #bbb;
+    color: black;
+    border-radius: 30px;
+    
+    
+  }
+  
+  
+  /* Style the back side */
+
+  .flip-card-back {
+    background-color: rgb(255, 99, 51);
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 30px;
+  }
+
+ .sale-card-img{
+
+  width: 150px;
+  margin: 3rem;
+
+ }
+
+  .for-sale-img{
+
+      border-radius: 15px;
+      
+  }
+
+  .container {  
+   
+}
+/*
+  .sale-container{
+
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: 420px 420px; 
+
+  }
+  */
+
+
+  .for-sale-card{
+
+    height: 400px;
+
+    text-align: center;
+  }
+  #for-sale{
+
+    background-image: url(../imgs/imgs/bg.png);
+
+  }
+
+  
+  #contact-us{
+
+    background-image: url(../imgs/imgs/contact\ us.gif);
+
+  }
+
+  #email{
+
+    background-color: rgb(255, 96, 75);
+
+  }
+
+  #footer{
+
+background: rgb(52,49,118);
+
+background: linear-gradient(55deg, rgba(52,49,118,1) 3%, rgba(105,55,128,1) 33%, rgba(241,104,116,1) 100%);
+
+  }
+
+
+  #footer-container{
+
+margin: auto;
+    
+}
+
+.footer-text{
+
+  color: white;
+
+}
+
+.footer-vec{
+
+  padding-left: 4rem;
+  padding-right: 3rem;
+  padding-top:2rem;
+
+}
+
+.outer {
+
+  background:transparent;
+  padding: 1 rem;
+
+}
+
+.wrap {
+
+  margin: 0 auto;
+
+}
+
+.sub {
+
+  width: 24%;
+  height: 150px;
+  background: transparent;
+  display: table-cell;
+  border-right: none;  
+
+}
+
+.sub:last-child {
+
+  border: none;
+
+}
+
+.fa-facebook-f:hover{
+
+  color: #3323ad;
+
+}
+
+.fa-twitter:hover{
+
+  color: #1e8beb;
+
+}
+
+.fa-instagram:hover{
+
+  color: rgb(197, 51, 75);
+
+}
+
+.fab{
+    
+  padding: 1rem;
+  font-size: 20px;
+  color: white;
+
+}
+
+#footer-right{
+
+  padding: 2rem;
+
+}
+
+#footer a{
+
+  color: white ;
+  text-decoration: none !important;
+
+}
+
+.btn-link{
+
+  color:rgb(226, 81, 24);
+  padding: 0rem 15rem;
+  text-decoration: none !important;
+  
+}
+
+#accordionExample{
+
+  margin: 3rem;
+  
+}
+
+.faq-card{
+
+  border-radius: 30px;
+
+}
+
+
+.slider-input{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 300px;
+  height: 12px;
+  outline: none;
+  border-radius: 25px;
+  background: rgb(218, 205, 193);
+  margin-bottom: 1rem;
+
+}
+
+.slider-input::-webkit-slider-thumb{
+
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgb(238, 124, 48);
+  cursor: pointer;
+
+}
+
+h6{
+  display: inline-block;
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+.slide-div1{
+
+  text-align: center;
+
+}
+
+
+
+.slide-div2{
+
+  display: none;
+  visibility: hidden;
+
+  }
+
+
+.card-btn{
+    
+  box-shadow: 0 10px 20px rgba(77, 74, 74, 0.5);
+  padding: 0rem 2rem;
+}
+
+
+
+.pagination{
+
+  margin: auto;
+  direction: rtl;
+  padding-bottom: 2rem;
+  padding-left: 14rem;
+}
+
+.page-link{
+
+  color: #eb921e;
+}
+
+.page-link:hover{
+
+  color:white;
+  background-color: #eba91d;
+}
+
+.how-to-buy{
+
+  background-image: url(../imgs/imgs/about.jpg) ;
+  width: 100%;
+  margin: auto;
+  padding: 3rem;
+  color:white;
+  background-position: center;
+   
+}
+
+
+
+.more-realestate{
+padding: 2rem;
+
+}
+
+.lightbox-div{
+
+  margin:0 auto;
+  text-align: center;
+  width:100%;
+}
+.lightbox-img{
+
+  display: inline-block;
+  margin:0 auto;
+  border-radius: 20px;
+  
+}
+
+
+#who-we-are{
+
+
+  background-image: url(../imgs/imgs/about.jpg) ;
+  width: 100%;
+  margin: auto;
+  padding: 3rem;
+  color:white;
+  background-position: center;
+
+}
+
+.vertical{
+
+  padding-right: 1rem;
+}
+
+#staff{
+
+  padding: 2rem;
+  margin:auto;
+  
+  
+
+}
+
+
+.staff-card{
+
+  border-radius: 30px;
+  box-shadow: 0 20px 30px rgba(177, 166, 166, 0.8);
+  margin-bottom: 2rem;
+
+
+}
+.staff-row{
+  margin:auto;
+}
+
+
+.card-img-top{
+  margin: auto;
+  border-radius: 30px;
+  
+  
+
+}
+.landmark-btn{
+
+  background: white;
+  color:navy;
+  font-size: 1.5 rem;
+  text-decoration: none;  
+  padding: 0.5rem 3rem;
+  border-radius: 30px;
+  margin-bottom: 2rem;
+  border: #3323ad solid;
+  margin: auto;
+margin-top:3rem;
+}
+
+.landmark-btn1{
+
+  background: rgb(240, 108, 0);
+  color:white;
+  font-size: 1.5 rem;
+  text-decoration: none;  
+  padding: 0.5rem 3rem;
+  border-radius: 30px;
+
+}
+
+
+.center{
+  margin-top: 2rem;
+}
+
+.text{
+
+  padding-bottom:1rem;
+}
+
+.vertical-line {
+
+  border-right: 5px solid rgb(233, 117, 21);
+  height: 50px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  padding-left: 1rem;
+}
+
+.landmark-text{
+  padding: 2rem;
+}
+
+#map-container{
+  height: 500px;
+  width: 500px;
+}
+
+.map{
+
+text-align: center;
+}
+
+.form-inline{
+  text-align: center;
+  margin:auto;
+}
+
+#dropdownMenuButton{
+
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+}
+
+#dropdownMenuButton1{
+
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  background-color: gray;
+}
+
+.mr-sm-2{
+
+  padding:1.8rem;
+}
