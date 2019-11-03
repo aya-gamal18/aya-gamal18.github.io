@@ -1,53 +1,53 @@
 /* small phones from 0 to 480px*/
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
 
 
-    .microsoft{
-   
-        margin-top:8rem;
+    .microsoft {
+
+        margin-top: 8rem;
 
     }
-    
-    .offer-card{
+
+    .offer-card {
 
         width: 14rem !important;
 
     }
 
-    .offers-img{
+    .offers-img {
 
-     margin-left: 4rem !important;
+        margin-left: 4rem !important;
 
     }
-    
-    .article-card{
 
-            width: 16rem !important;
-            padding:0rem;
-            
-        }
+    .article-card {
 
- .who-text{
+        width: 16rem !important;
+        padding: 0rem;
 
-            text-align: center;
-            font-size: 100%;
-            
-       }
+    }
 
-    
+    .who-text {
 
-    #owl-offers{
+        text-align: center;
+        font-size: 100%;
+
+    }
+
+
+
+    #owl-offers {
 
         padding-bottom: 0rem;
     }
 
-    
 
-       #footer-vec {
 
-    width: 30%;
-    margin-right:6rem !important;
+    #footer-vec {
+
+        width: 30%;
+        margin-right: 6rem !important;
 
     }
 
@@ -59,45 +59,45 @@
         margin-right: 1rem;
     }
 
-    .social{
-    
+    .social {
 
-       width: 100%;
 
-       margin: auto !important;
+        width: 100%;
 
-       font-size: 21px !important;
-    
-       padding-right: 4rem !important;
+        margin: auto !important;
 
-    
-    }
+        font-size: 21px !important;
 
-    .footer-logo{
+        padding-right: 4rem !important;
 
-margin-right: 1rem;
 
     }
 
-    .footer-text{
+    .footer-logo {
+
+        margin-right: 1rem;
+
+    }
+
+    .footer-text {
 
         margin: auto;
         font-size: small !important;
         margin-right: 1rem;
     }
 
-    .clients{
+    .clients {
 
         padding-right: 0rem;
     }
 
-    .my-card{
+    .my-card {
 
         width: 100% !important;
 
     }
 
-    .one-img{
+    .one-img {
 
         width: 310px;
         margin: auto;
@@ -109,17 +109,17 @@ margin-right: 1rem;
 
 /* small phones to small tablets 481px to 767 px*/
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
 
-    .who-text{
+    .who-text {
 
         text-align: center;
     }
 
-    .article-card{
+    .article-card {
 
         width: 16rem !important;
-    
+
     }
 
 
@@ -128,11 +128,11 @@ margin-right: 1rem;
 
 /* small tablets to big tablets 768px to 1023px*/
 
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1023px) {
 
-    .header-text{
-    
-        margin-top:0rem;
+    .header-text {
+
+        margin-top: 0rem;
         visibility: visible;
         font-size: -webkit-xxx-large;
         backface-visibility: visible;
@@ -140,132 +140,130 @@ margin-right: 1rem;
 
     }
 
-.who-img{
+    .who-img {
 
-    margin-top:12rem;
-
-}
-
-
-#owl-offers {
-   
-        margin: auto;
-        width:100%;
+        margin-top: 12rem;
 
     }
 
-.owl-carousel .owl-item img{
 
-        width:140px;
+    #owl-offers {
 
-       }
+        margin: auto;
+        width: 100%;
 
-    
-.work-card{
+    }
+
+    .owl-carousel .owl-item img {
+
+        width: 140px;
+
+    }
+
+
+    .work-card {
 
         width: 14rem !important;
 
     }
 
-.article-card{
+    .article-card {
 
         width: 16rem !important;
-    
+
     }
 
 
     #footer-vec {
 
         width: 40%;
-        
+
         margin-right: 4rem;
-        margin-top:2rem;
-    
+        margin-top: 2rem;
+
     }
 
 
-    .footer-text{
+    .footer-text {
 
         font-size: large;
 
     }
 
-    .clients{
+    .clients {
 
         padding-right: 0rem;
 
     }
+
     .address {
 
         font-size: medium;
-        padding:1rem;
+        padding: 1rem;
         font-family: cairo;
         margin-right: 3rem;
 
     }
 
-    
-    .social{
-    
+
+    .social {
+
         font-size: 24px !important;
-       
-        margin:  auto;
+
+        margin: auto;
         padding: 0rem;
-        
-    
+
+
     }
 
 
 }
 
 /*big tablet to 1200px smaller than 1140px row */
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px) {
 
-   .header-container{
+    .header-container {
 
-       width: 100%;
-    
-   }
+        width: 100%;
 
-   #owl-clients{
+    }
 
-    width:100%;
-    margin:auto;
+    #owl-clients {
 
-   }
+        width: 100%;
+        margin: auto;
 
-   .owl-carousel{
+    }
 
-    margin: auto;
+    .owl-carousel {
 
-}
+        margin: auto;
 
-   .owl-theme .owl-nav {
-    
-    font-size: 50px;
-    text-align: center;
-    margin-right: rem;
-    margin: auto;
+    }
 
-}
+    .owl-theme .owl-nav {
 
-.header-text{
+        font-size: 50px;
+        text-align: center;
+        margin-right: rem;
+        margin: auto;
 
-    margin-top:5rem;
+    }
 
-}
+    .header-text {
 
-.social{
-    
-    font-size: 35px;
-    margin:  auto;
-    margin-right:3rem;
-    
-}
+        margin-top: 5rem;
 
-.high{
+    }
 
-    
-}
+    .social {
+
+        font-size: 35px;
+        margin: auto;
+        margin-right: 3rem;
+
+    }
+
+  
 
 }

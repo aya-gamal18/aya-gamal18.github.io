@@ -1,42 +1,43 @@
 /* small phones from 0 to 480px*/
 
-@media only screen and (max-width: 320px)
-
-{
+@media only screen and (max-width: 320px) {
 
 
-    
-        .map{
 
-            width:100%;
-        }
-    
+    .map {
+
+        width: 100%;
+    }
+
     .underlineHover {
         float: right;
-        margin-left: 0rem;}
+        margin-left: 0rem;
+    }
 
-        .sign{
-            display: block;
-            margin-left: 2rem;
-        }
+    .sign {
+        display: block;
+        margin-left: 2rem;
+    }
+
     .i-area {
         width: 90%;
         text-align: center;
         margin: auto;
-}
-
-    .contact2{
-
-        
-    margin-top: 1rem;
-
-}
-
-.contact-data {
-
-    margin: 0rem;
     }
-    body{
+
+    .contact2 {
+
+
+        margin-top: 1rem;
+
+    }
+
+    .contact-data {
+
+        margin: 0rem;
+    }
+
+    body {
 
         margin: auto;
         overflow-x: hidden;
@@ -45,28 +46,28 @@
     }
 
     .fa-gratipay {
-       
+
         right: 26rem;
-       
+
     }
 
-    .bg-light{
+    .bg-light {
         text-align: center;
-    
+
     }
 
     .home-nav {
 
         background: rgb(30, 30, 97);
         width: 100%;
-        padding-left: 0rem; 
+        padding-left: 0rem;
         padding-right: 0rem;
         padding: 1rem;
         text-align: center;
 
     }
 
-    .nav1{
+    .nav1 {
 
         margin-right: 2rem;
     }
@@ -75,7 +76,7 @@
 
         background: rgb(243, 235, 235);
         width: 100%;
-        padding-left: 0rem; 
+        padding-left: 0rem;
         padding-right: 0rem;
         padding: 1rem;
         text-align: center;
@@ -89,85 +90,86 @@
     }
 
 
-    .n-hov{
+    .n-hov {
 
         display: block;
-        
+
     }
 
-    .home-nav1 a{
+    .home-nav1 a {
 
         border-left: none;
         padding: 2rem 2rem;
-        
+
     }
 
     .acc-hov {
-        margin-right: 0rem!important;
+        margin-right: 0rem !important;
         border-left: none !important;
         display: block;
     }
 
     .icon {
         text-align: center;
-         padding-right: 0rem; 
-         padding-left: 0rem; 
-         
+        padding-right: 0rem;
+        padding-left: 0rem;
+
     }
+
     .navbar-toggler {
-        
+
         background-color: #00000014;
         border: 1px solid transparent;
-        
-    }
-
-#header{
-
-    text-align: center;
-
-}
-
-.header-text {
-    color: rgb(167, 18, 18);
-    font-weight: bold;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-
-
-    .header-img{
-
-        width:100%;
 
     }
 
-    .h-img{
+    #header {
+
+        text-align: center;
+
+    }
+
+    .header-text {
+        color: rgb(167, 18, 18);
+        font-weight: bold;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+
+    .header-img {
+
+        width: 100%;
+
+    }
+
+    .h-img {
 
         display: none;
         visibility: hidden;
 
     }
 
-    .a-img{
+    .a-img {
 
         display: none;
         visibility: hidden;
 
     }
 
-    .h-img1{
+    .h-img1 {
 
         display: block;
         visibility: visible;
-      
-      }
-      
-      .a-img1{
-      
+
+    }
+
+    .a-img1 {
+
         display: block;
         visibility: visible;
-      
-      }
+
+    }
 
 
 
@@ -179,22 +181,23 @@
         text-align: center;
     }
 
-    .header-p{
+    .header-p {
 
         text-align: center;
 
     }
-    .article-card{
-        width:14rem !important;
+
+    .article-card {
+        width: 14rem !important;
     }
 
-    .don{
+    .don {
 
         text-align: center;
         margin-top: 1rem;
     }
 
-    .donate-div{
+    .donate-div {
         padding-top: 0rem;
     }
 
@@ -203,63 +206,66 @@
         margin: auto;
     }
 
-.app-img{
+    .app-img {
 
-    visibility: hidden;
-    display: none;
+        visibility: hidden;
+        display: none;
 
 
-}
- .app-img1{
-      
+    }
+
+    .app-img1 {
+
         display: block;
         visibility: visible;
-      
-      }
-.app-text {
 
-    color: rgb(27, 25, 25);
-    font-weight: bold;
-    margin-top: 3rem;
-    text-align: center;
+    }
 
-}
+    .app-text {
 
-.app-p{
+        color: rgb(27, 25, 25);
+        font-weight: bold;
+        margin-top: 3rem;
+        text-align: center;
 
-    font-size: 1rem;
-    text-align: center;
+    }
 
-}
+    .app-p {
 
-.app-icon{
+        font-size: 1rem;
+        text-align: center;
 
-    width: 130px;
-    height: 50px;
-    text-align: center;
-}
+    }
 
-.app-icons{
+    .app-icon {
 
-    text-align: center;
-}
+        width: 130px;
+        height: 50px;
+        text-align: center;
+    }
 
-#contact-us {
+    .app-icons {
 
-    padding: 1rem;    background-size: cover;
-    
-    padding-bottom: 3rem;
-    
+        text-align: center;
+    }
 
-}
+    #contact-us {
 
-.contact-content {
+        padding: 1rem;
+        background-size: cover;
 
-    display: block;
-    margin: auto;
-    margin-bottom: 2rem;
+        padding-bottom: 3rem;
 
-}
+
+    }
+
+    .contact-content {
+
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
+
+    }
 
     .whatsapp {
 
@@ -272,20 +278,21 @@
 
     }
 
-   .wts-img{
-       
-    text-align: left;
-    position: absolute;
-    top: 317rem;
-    width: 50px;
-    margin-right: -0.01rem;
+    .wts-img {
 
-}
+        text-align: left;
+        position: absolute;
+        top: 319rem;
+        width: 50px;
+        margin-right: -0.01rem;
 
-.select-home {
-    padding: 1rem 3rem;
-    margin-bottom: 0.5rem;}
-   
+    }
+
+    .select-home {
+        padding: 1rem 3rem;
+        margin-bottom: 0.5rem;
+    }
+
     #footer-container {
         margin: auto;
         padding-left: 0rem;
@@ -293,92 +300,97 @@
         padding-bottom: 1rem;
     }
 
-        .sub {
+    .sub {
 
-            width: 24%;
-            
-            display: contents;
+        width: 24%;
 
-          }
-        
-          .outer{
+        display: contents;
 
-              margin: auto;
-              text-align: center;
-          }
+    }
+
+    .outer {
+
+        margin: auto;
+        text-align: center;
+    }
 
 
-          .footer-text{
-              text-align: center;
-              padding-bottom: 1rem;
-          }
+    .footer-text {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
 
-          .n-hov5{
+    .n-hov5 {
 
-            padding-top: 1rem;
-            margin-bottom: 0rem;
+        padding-top: 1rem;
+        margin-bottom: 0rem;
 
-          }
+    }
 
-          .icon2 {
+    .icon2 {
 
-            text-align: center;
-            margin-right: 0rem;
+        text-align: center;
+        margin-right: 0rem;
 
-        }
+    }
 
-        .copy {
+    .copy {
 
-            display: inline-block;
+        display: inline-block;
 
-        }
-        .copy-right {
+    }
 
-            display: flex;
-            margin: auto;
-            text-align: center;
-            padding-top: 1rem;}
-             
+    .copy-right {
+
+        display: flex;
+        margin: auto;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
 }
 
-@media only screen and ( min-width: 321px) and (max-width:374px)
-
-{
+@media only screen and (min-width: 321px) and (max-width:374px) {
 
     .underlineHover {
         float: right;
-        margin-left: 0rem;}
+        margin-left: 0rem;
+    }
 
-        .sign{
-            display: block;
-            margin-left: 2rem;
-        }
+    .sign {
+        display: block;
+        margin-left: 2rem;
+    }
+
     .i-area {
         width: 90%;
         text-align: center;
         margin: auto;
-}
-
-.contact1{
-
-    margin-left: 0rem;
-}
-    .contact2{
-
-        
-        margin-top: 1rem;
-    
     }
-    
+
+    .contact1 {
+
+        margin-left: 0rem;
+    }
+
+    .contact2 {
+
+
+        margin-top: 1rem;
+
+    }
+
     .contact-data {
-    
+
         margin: 0rem;
-        }
+    }
+
     .select-home {
         padding: 1rem 3rem;
-        margin-bottom: 0.5rem;}
+        margin-bottom: 0.5rem;
+    }
 
-    body{
+    body {
 
         margin: auto;
         overflow-x: hidden;
@@ -387,20 +399,20 @@
     }
 
     .fa-gratipay {
-       
+
         right: 28.5rem;
     }
 
-    .bg-light{
+    .bg-light {
         text-align: center;
-    
+
     }
 
     .home-nav {
 
         background: rgb(30, 30, 97);
         width: 100%;
-        padding-left: 0rem; 
+        padding-left: 0rem;
         padding-right: 0rem;
         padding: 1rem;
         text-align: center;
@@ -411,24 +423,24 @@
 
         background: rgb(243, 235, 235);
         width: 100%;
-        padding-left: 0rem; 
+        padding-left: 0rem;
         padding-right: 0rem;
         padding: 1rem;
         text-align: center;
 
     }
 
-    .nav1{
+    .nav1 {
 
         margin-right: 4rem;
     }
 
-    .nav2{
+    .nav2 {
 
         text-align: center;
         margin-right: 4rem;
-        margin-left: 3rem;  
-      }
+        margin-left: 3rem;
+    }
 
     .n-hov3 {
         margin: -1rem !important;
@@ -442,85 +454,86 @@
     }
 
 
-    .n-hov{
+    .n-hov {
 
         display: block;
-        
+
     }
 
-    .home-nav1 a{
+    .home-nav1 a {
 
         border-left: none;
         padding: 2rem 2rem;
-        
+
     }
 
     .acc-hov {
-        margin-right: 0rem!important;
+        margin-right: 0rem !important;
         border-left: none !important;
         display: block;
     }
 
     .icon {
         text-align: center;
-         padding-right: 0rem; 
-         padding-left: 0rem; 
-         
+        padding-right: 0rem;
+        padding-left: 0rem;
+
     }
+
     .navbar-toggler {
-        
+
         background-color: #00000014;
         border: 1px solid transparent;
-        
-    }
-
-#header{
-
-    text-align: center;
-
-}
-
-.header-text {
-    color: rgb(167, 18, 18);
-    font-weight: bold;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-
-
-    .header-img{
-
-        width:100%;
 
     }
 
-    .h-img{
+    #header {
+
+        text-align: center;
+
+    }
+
+    .header-text {
+        color: rgb(167, 18, 18);
+        font-weight: bold;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+
+    .header-img {
+
+        width: 100%;
+
+    }
+
+    .h-img {
 
         display: none;
         visibility: hidden;
 
     }
 
-    .a-img{
+    .a-img {
 
         display: none;
         visibility: hidden;
 
     }
 
-    .h-img1{
+    .h-img1 {
 
         display: block;
         visibility: visible;
-      
-      }
-      
-      .a-img1{
-      
+
+    }
+
+    .a-img1 {
+
         display: block;
         visibility: visible;
-      
-      }
+
+    }
 
     .about-text {
 
@@ -530,23 +543,24 @@
         text-align: center;
     }
 
-    .header-p{
+    .header-p {
 
         text-align: center;
 
     }
-    .article-card{
-        width:14rem !important;
+
+    .article-card {
+        width: 14rem !important;
         margin: auto;
     }
 
-    .don{
+    .don {
 
         text-align: center;
         margin-top: 1rem;
     }
 
-    .donate-div{
+    .donate-div {
         padding-top: 0rem;
     }
 
@@ -555,65 +569,65 @@
         margin: auto;
     }
 
-.app-img{
+    .app-img {
 
-    visibility: hidden;
-    display: none;
+        visibility: hidden;
+        display: none;
 
-}
+    }
 
-.app-img1{
-      
-    display: block;
-    visibility: visible;
-  
-  }
+    .app-img1 {
 
-.app-text {
+        display: block;
+        visibility: visible;
 
-    color: rgb(27, 25, 25);
-    font-weight: bold;
-    margin-top: 3rem;
-    text-align: center;
+    }
 
-}
+    .app-text {
 
-.app-p{
+        color: rgb(27, 25, 25);
+        font-weight: bold;
+        margin-top: 3rem;
+        text-align: center;
 
-    font-size: 1rem;
-    text-align: center;
+    }
 
-}
+    .app-p {
 
-.app-icon{
+        font-size: 1rem;
+        text-align: center;
 
-    width: 130px;
-    height: 50px;
-    text-align: center;
-}
+    }
 
-.app-icons{
+    .app-icon {
 
-    text-align: center;
-}
+        width: 130px;
+        height: 50px;
+        text-align: center;
+    }
 
-#contact-us {
+    .app-icons {
 
-    padding: 1rem;  
-    background-size: cover;
-    
-    padding-bottom: 3rem;
-    
+        text-align: center;
+    }
 
-}
+    #contact-us {
 
-.contact-content {
+        padding: 1rem;
+        background-size: cover;
 
-    display: block;
-    margin: auto;
-    margin-bottom: 2rem;
+        padding-bottom: 3rem;
 
-}
+
+    }
+
+    .contact-content {
+
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
+
+    }
 
     .whatsapp {
 
@@ -626,16 +640,16 @@
 
     }
 
-   .wts-img{
-       
-    text-align: left;
-    position: absolute;
-    top: 312.8rem;
-    width: 50px;
-    margin-right: -0.01rem;
+    .wts-img {
 
-}
-   
+        text-align: left;
+        position: absolute;
+        top: 314.8rem;
+        width: 50px;
+        margin-right: -0.01rem;
+
+    }
+
     #footer-container {
         margin: auto;
         padding-left: 0rem;
@@ -643,102 +657,106 @@
         padding-bottom: 1rem;
     }
 
-        .sub {
+    .sub {
 
-            width: 24%;
-            
-            display: contents;
+        width: 24%;
 
-          }
-        
-          .outer{
+        display: contents;
 
-              margin: auto;
-              text-align: center;
-          }
+    }
+
+    .outer {
+
+        margin: auto;
+        text-align: center;
+    }
 
 
-          .footer-text{
-              text-align: center;
-              padding-bottom: 1rem;
-          }
+    .footer-text {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
 
-          .n-hov5{
+    .n-hov5 {
 
-            padding-top: 1rem;
-            margin-bottom: 0rem;
+        padding-top: 1rem;
+        margin-bottom: 0rem;
 
-          }
+    }
 
-          .icon2 {
+    .icon2 {
 
-            text-align: center;
-            margin-right: 0rem;
+        text-align: center;
+        margin-right: 0rem;
 
-        }
+    }
 
-        .copy {
+    .copy {
 
-            display: inline-block;
+        display: inline-block;
 
-        }
-        .copy-right {
+    }
 
-            display: flex;
-            margin: auto;
-            text-align: center;
-            padding-top: 1rem;
-            margin-right: 2rem;
-        }
-             
+    .copy-right {
+
+        display: flex;
+        margin: auto;
+        text-align: center;
+        padding-top: 1rem;
+        margin-right: 2rem;
+    }
+
 }
 
-@media only screen and (min-width: 375px) and (max-width: 410px)
-{
+@media only screen and (min-width: 375px) and (max-width: 410px) {
 
-    .nav1{
+    .nav1 {
 
         margin-right: 4rem;
     }
 
-    .nav2{
+    .nav2 {
 
         text-align: center;
         margin-right: 4rem;
-        margin-left: 3rem;  
-      }
+        margin-left: 3rem;
+    }
+
     .underlineHover {
         float: none;
-        margin-left: 0rem;}
+        margin-left: 0rem;
+    }
 
-        .sign{
-            display: block;
-            margin-left: 2rem;
-        }
+    .sign {
+        display: block;
+        margin-left: 2rem;
+    }
+
     .i-area {
         width: 90%;
         text-align: center;
         margin: auto;
-}
-
-.contact1{
-
-    margin-left: 0rem;
-}
-    .contact2{
-
-        
-        margin-top: 1rem;
-    
     }
-    
+
+    .contact1 {
+
+        margin-left: 0rem;
+    }
+
+    .contact2 {
+
+
+        margin-top: 1rem;
+
+    }
+
     .contact-data {
-    
+
         margin: 0rem;
 
-        }
-   
-    body{
+    }
+
+    body {
 
         margin: auto;
         overflow-x: hidden;
@@ -746,17 +764,17 @@
 
     }
 
-    .bg-light{
+    .bg-light {
         text-align: center;
-    
+
     }
 
-   
+
     .home-nav {
 
         background: rgb(30, 30, 97);
         width: 100%;
-        padding-left: 0rem; 
+        padding-left: 0rem;
         padding-right: 0rem;
         padding: 1rem;
         text-align: center;
@@ -767,7 +785,7 @@
 
         background: rgb(243, 235, 235);
         width: 100%;
-        padding-left: 0rem; 
+        padding-left: 0rem;
         padding-right: 0rem;
         padding: 1rem;
         text-align: center;
@@ -781,85 +799,86 @@
     }
 
 
-    .n-hov{
+    .n-hov {
 
         display: block;
-        
+
     }
 
-    .home-nav1 a{
+    .home-nav1 a {
 
         border-left: none;
         padding: 2rem 2rem;
-        
+
     }
 
     .acc-hov {
-        margin-right: 0rem!important;
+        margin-right: 0rem !important;
         border-left: none !important;
         display: block;
     }
 
     .icon {
         text-align: center;
-         padding-right: 0rem; 
-         padding-left: 0rem; 
-         
+        padding-right: 0rem;
+        padding-left: 0rem;
+
     }
+
     .navbar-toggler {
-        
+
         background-color: #00000014;
         border: 1px solid transparent;
-        
-    }
-
-#header{
-
-    text-align: center;
-
-}
-
-.header-text {
-    color: rgb(167, 18, 18);
-    font-weight: bold;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-
-
-    .header-img{
-
-        width:100%;
 
     }
 
-    .h-img{
+    #header {
+
+        text-align: center;
+
+    }
+
+    .header-text {
+        color: rgb(167, 18, 18);
+        font-weight: bold;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+
+    .header-img {
+
+        width: 100%;
+
+    }
+
+    .h-img {
 
         display: none;
         visibility: hidden;
 
     }
 
-    .a-img{
+    .a-img {
 
         display: none;
         visibility: hidden;
 
     }
 
-    .h-img1{
+    .h-img1 {
 
         display: block;
         visibility: visible;
-      
-      }
-      
-      .a-img1{
-      
+
+    }
+
+    .a-img1 {
+
         display: block;
         visibility: visible;
-      
-      }
+
+    }
 
     .about-text {
 
@@ -869,23 +888,24 @@
         text-align: center;
     }
 
-    .header-p{
+    .header-p {
 
         text-align: center;
 
     }
-    .article-card{
-        
+
+    .article-card {
+
         margin: auto;
     }
 
-    .don{
+    .don {
 
         text-align: center;
         margin-top: 1rem;
     }
 
-    .donate-div{
+    .donate-div {
         padding-top: 0rem;
     }
 
@@ -894,63 +914,64 @@
         margin: auto;
     }
 
-.app-img{
+    .app-img {
 
-    visibility: hidden;
-    display: none;
+        visibility: hidden;
+        display: none;
 
-}
+    }
 
-.app-img1{
-      
-    display: block;
-    visibility: visible;
-  
-  }
+    .app-img1 {
 
-.app-text {
+        display: block;
+        visibility: visible;
 
-    color: rgb(27, 25, 25);
-    font-weight: bold;
-    margin-top: 3rem;
-    text-align: center;
+    }
 
-}
+    .app-text {
 
-.app-p{
+        color: rgb(27, 25, 25);
+        font-weight: bold;
+        margin-top: 3rem;
+        text-align: center;
 
-    font-size: 1rem;
-    text-align: center;
+    }
 
-}
+    .app-p {
 
-.app-icon{
+        font-size: 1rem;
+        text-align: center;
 
-    width: 130px;
-    height: 50px;
-    text-align: center;
-}
+    }
 
-.app-icons{
+    .app-icon {
 
-    text-align: center;
-}
+        width: 130px;
+        height: 50px;
+        text-align: center;
+    }
 
-#contact-us {
+    .app-icons {
 
-    padding: 1rem;    background-size: cover;
-    
-    padding-bottom: 3rem;
+        text-align: center;
+    }
 
-}
+    #contact-us {
 
-.contact-content {
+        padding: 1rem;
+        background-size: cover;
 
-    display: block;
-    margin: auto;
-    margin-bottom: 2rem;
+        padding-bottom: 3rem;
 
-}
+    }
+
+    .contact-content {
+
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
+
+    }
 
     .whatsapp {
 
@@ -963,16 +984,16 @@
 
     }
 
-   .wts-img{
-       
-    text-align: left;
-    position: absolute;
-    top: 305.8rem;
-    width: 50px;
-    margin-right: -0.01rem;
+    .wts-img {
 
-}
-   
+        text-align: left;
+        position: absolute;
+        top: 307.8rem;
+        width: 50px;
+        margin-right: -0.01rem;
+
+    }
+
     #footer-container {
         margin: auto;
         padding-left: 0rem;
@@ -980,104 +1001,108 @@
         padding-bottom: 1rem;
     }
 
-        .sub {
+    .sub {
 
-            width: 24%;
-            
-            display: contents;
+        width: 24%;
 
-          }
-        
-          .outer{
+        display: contents;
 
-              margin: auto;
-              text-align: center;
-          }
+    }
+
+    .outer {
+
+        margin: auto;
+        text-align: center;
+    }
 
 
-          .footer-text{
-              text-align: center;
-              padding-bottom: 1rem;
-          }
+    .footer-text {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
 
-          .n-hov5{
+    .n-hov5 {
 
-            padding-top: 1rem;
-            margin-bottom: 0rem;
+        padding-top: 1rem;
+        margin-bottom: 0rem;
 
-          }
+    }
 
-          .icon2 {
+    .icon2 {
 
-            text-align: center;
-            margin-right: 0rem;
+        text-align: center;
+        margin-right: 0rem;
 
-        }
+    }
 
-        .copy {
+    .copy {
 
-            display: inline-block;
+        display: inline-block;
 
-        }
-        .copy-right {
+    }
 
-            display: flex;
-            margin: auto;
-            text-align: center;
-            padding-top: 1rem;
-            margin-right: 3rem;
-        }
-             
+    .copy-right {
+
+        display: flex;
+        margin: auto;
+        text-align: center;
+        padding-top: 1rem;
+        margin-right: 3rem;
+    }
+
 }
 
 
-@media only screen and (min-width: 411px) and (max-width: 480px)
+@media only screen and (min-width: 411px) and (max-width: 480px) {
 
-{
-
-    .nav1{
+    .nav1 {
 
         margin-right: 5rem;
     }
 
-    .nav2{
+    .nav2 {
 
         text-align: center;
         margin-right: 4rem;
-        margin-left: 3rem;  
-      }
+        margin-left: 3rem;
+    }
+
     .underlineHover {
         float: none;
-        margin-left: 0rem;}
+        margin-left: 0rem;
+    }
 
-        .sign{
+    .sign {
 
-            display: block;
-            margin-left: 2rem;
-        }
+        display: block;
+        margin-left: 2rem;
+    }
+
     .i-area {
         width: 90%;
         text-align: center;
         margin: auto;
-}
-
-.contact1{
-
-    margin-left: 0rem;
-}
-    .contact2{
-
-        
-        margin-top: 1rem;
-    
     }
-    
+
+    .contact1 {
+
+        margin-left: 0rem;
+    }
+
+    .contact2 {
+
+
+        margin-top: 1rem;
+
+    }
+
     .contact-data {
-    
+
         margin: 0rem;
 
-        }
-    body{
+    }
+
+    body {
 
         margin: auto;
         overflow-x: hidden;
@@ -1085,18 +1110,18 @@
 
     }
 
-    .bg-light{
+    .bg-light {
         text-align: center;
-    
+
     }
 
-   
+
 
     .home-nav {
 
         background: rgb(30, 30, 97);
         width: 100%;
-        padding-left: 0rem; 
+        padding-left: 0rem;
         padding-right: 0rem;
         padding: 1rem;
         text-align: center;
@@ -1107,7 +1132,7 @@
 
         background: rgb(243, 235, 235);
         width: 100%;
-        padding-left: 0rem; 
+        padding-left: 0rem;
         padding-right: 0rem;
         padding: 1rem;
         text-align: center;
@@ -1121,85 +1146,86 @@
     }
 
 
-    .n-hov{
+    .n-hov {
 
         display: block;
-        
+
     }
 
-    .home-nav1 a{
+    .home-nav1 a {
 
         border-left: none;
         padding: 2rem 2rem;
-        
+
     }
 
     .acc-hov {
-        margin-right: 0rem!important;
+        margin-right: 0rem !important;
         border-left: none !important;
         display: block;
     }
 
     .icon {
         text-align: center;
-         padding-right: 0rem; 
-         padding-left: 0rem; 
-         
+        padding-right: 0rem;
+        padding-left: 0rem;
+
     }
+
     .navbar-toggler {
-        
+
         background-color: #00000014;
         border: 1px solid transparent;
-        
-    }
-
-#header{
-
-    text-align: center;
-
-}
-
-.header-text {
-    color: rgb(167, 18, 18);
-    font-weight: bold;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-
-
-    .header-img{
-
-        width:100%;
 
     }
 
-    .h-img{
+    #header {
+
+        text-align: center;
+
+    }
+
+    .header-text {
+        color: rgb(167, 18, 18);
+        font-weight: bold;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+
+    .header-img {
+
+        width: 100%;
+
+    }
+
+    .h-img {
 
         display: none;
         visibility: hidden;
 
     }
 
-    .a-img{
+    .a-img {
 
         display: none;
         visibility: hidden;
 
     }
 
-    .h-img1{
+    .h-img1 {
 
         display: block;
         visibility: visible;
-      
-      }
-      
-      .a-img1{
-      
+
+    }
+
+    .a-img1 {
+
         display: block;
         visibility: visible;
-      
-      }
+
+    }
 
     .about-text {
 
@@ -1209,23 +1235,24 @@
         text-align: center;
     }
 
-    .header-p{
+    .header-p {
 
         text-align: center;
 
     }
-    .article-card{
-        
+
+    .article-card {
+
         margin: auto;
     }
 
-    .don{
+    .don {
 
         text-align: center;
         margin-top: 1rem;
     }
 
-    .donate-div{
+    .donate-div {
         padding-top: 0rem;
     }
 
@@ -1234,63 +1261,64 @@
         margin: auto;
     }
 
-.app-img{
+    .app-img {
 
-    visibility: hidden;
-    display: none;
+        visibility: hidden;
+        display: none;
 
-}
+    }
 
-.app-img1{
-      
-    display: block;
-    visibility: visible;
-  
-  }
+    .app-img1 {
 
-.app-text {
+        display: block;
+        visibility: visible;
 
-    color: rgb(27, 25, 25);
-    font-weight: bold;
-    margin-top: 3rem;
-    text-align: center;
+    }
 
-}
+    .app-text {
 
-.app-p{
+        color: rgb(27, 25, 25);
+        font-weight: bold;
+        margin-top: 3rem;
+        text-align: center;
 
-    font-size: 1rem;
-    text-align: center;
+    }
 
-}
+    .app-p {
 
-.app-icon{
+        font-size: 1rem;
+        text-align: center;
 
-    width: 130px;
-    height: 50px;
-    text-align: center;
-}
+    }
 
-.app-icons{
+    .app-icon {
 
-    text-align: center;
-}
+        width: 130px;
+        height: 50px;
+        text-align: center;
+    }
 
-#contact-us {
+    .app-icons {
 
-    padding: 1rem;    background-size: cover;
-    
-    padding-bottom: 3rem;
+        text-align: center;
+    }
 
-}
+    #contact-us {
 
-.contact-content {
+        padding: 1rem;
+        background-size: cover;
 
-    display: block;
-    margin: auto;
-    margin-bottom: 2rem;
+        padding-bottom: 3rem;
 
-}
+    }
+
+    .contact-content {
+
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
+
+    }
 
     .whatsapp {
 
@@ -1303,16 +1331,15 @@
 
     }
 
-   .wts-img{
-       
-    text-align: left;
-    position: absolute;
-    top: 303.4rem;
-    width: 60px;
-    margin-right: -0.01rem;
+    .wts-img {
 
-}
-   
+        text-align: left;
+        position: inherit;
+        width: 26px;
+        margin-right: -0.01rem;
+
+    }
+
     #footer-container {
         margin: auto;
         padding-left: 0rem;
@@ -1320,61 +1347,70 @@
         padding-bottom: 1rem;
     }
 
-        .sub {
+    .sub {
 
-            width: 24%;
-            
-            display: contents;
+        width: 24%;
 
-          }
-        
-          .outer{
+        display: contents;
 
-              margin: auto;
-              text-align: center;
-          }
+    }
+
+    .outer {
+
+        margin: auto;
+        text-align: center;
+    }
 
 
-          .footer-text{
-              text-align: center;
-              padding-bottom: 1rem;
-          }
+    .footer-text {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
 
-          .n-hov5{
+    .n-hov5 {
 
-            padding-top: 1rem;
-            margin-bottom: 0rem;
+        padding-top: 1rem;
+        margin-bottom: 0rem;
 
-          }
+    }
 
-          .icon2 {
+    .icon2 {
 
-            text-align: center;
-            margin-right: 0rem;
+        text-align: center;
+        margin-right: 0rem;
 
-        }
+    }
 
-        .copy {
+    .copy {
 
-            display: inline-block;
+        display: inline-block;
 
-        }
-        .copy-right {
+    }
 
-            display: flex;
-            margin: auto;
-            text-align: center;
-            padding-top: 1rem;
-            margin-right: 3rem;
-        }
-             
+    .copy-right {
+
+        display: flex;
+        margin: auto;
+        text-align: center;
+        padding-top: 1rem;
+        margin-right: 3rem;
+    }
+
 }
 
-@media only screen and (min-width: 480px) and (max-width:767px)
+@media only screen and (max-width: 480px) {
 
-{
+    #donate {
 
-    body{
+        align-content: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width:767px) {
+
+    body {
 
         margin: auto;
         overflow-x: hidden;
@@ -1382,22 +1418,22 @@
 
     }
 
-    .bg-light{
+    .bg-light {
         text-align: center;
-    
+
     }
 
     .fa-gratipay {
-       
+
         right: 26rem;
-       
+
     }
 
     .home-nav {
 
         background: rgb(30, 30, 97);
         width: 100%;
-        padding-left: 0rem; 
+        padding-left: 0rem;
         padding-right: 0rem;
         padding: 1rem;
         text-align: center;
@@ -1408,7 +1444,7 @@
 
         background: rgb(243, 235, 235);
         width: 100%;
-        padding-left: 0rem; 
+        padding-left: 0rem;
         padding-right: 0rem;
         padding: 1rem;
         text-align: center;
@@ -1422,92 +1458,93 @@
     }
 
 
-    .n-hov{
+    .n-hov {
 
         display: block;
-        
+
     }
 
-    .home-nav1 a{
+    .home-nav1 a {
 
         border-left: none;
         padding: 2rem 2rem;
-        
+
     }
 
     .acc-hov {
-        margin-right: 0rem!important;
+        margin-right: 0rem !important;
         border-left: none !important;
         display: block;
     }
 
     .icon {
         text-align: center;
-         padding-right: 0rem; 
-         padding-left: 0rem; 
-         
+        padding-right: 0rem;
+        padding-left: 0rem;
+
     }
+
     .navbar-toggler {
-        
+
         background-color: #00000014;
         border: 1px solid transparent;
-        
-    }
-
-#header{
-
-    text-align: center;
-
-}
-
-.header-text {
-    color: rgb(167, 18, 18);
-    font-weight: bold;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-
-
-    .header-img{
-
-        width:100%;
 
     }
 
-    .h-img{
+    #header {
+
+        text-align: center;
+
+    }
+
+    .header-text {
+        color: rgb(167, 18, 18);
+        font-weight: bold;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+
+    .header-img {
+
+        width: 100%;
+
+    }
+
+    .h-img {
 
         display: none;
         visibility: hidden;
 
     }
 
-    .a-img{
+    .a-img {
 
         display: none;
         visibility: hidden;
 
     }
 
-    .h-img1{
+    .h-img1 {
 
         display: block;
         visibility: visible;
-      
-      }
-      
-      .a-img1{
-      
-        display: block;
-        visibility: visible;
-      
-      }
 
-      .app-img1{
-      
+    }
+
+    .a-img1 {
+
         display: block;
         visibility: visible;
-      
-      }
+
+    }
+
+    .app-img1 {
+
+        display: block;
+        visibility: visible;
+
+    }
 
 
     .about-text {
@@ -1518,23 +1555,24 @@
         text-align: center;
     }
 
-    .header-p{
+    .header-p {
 
         text-align: center;
 
     }
-    .article-card{
-        width:14rem !important;
+
+    .article-card {
+        width: 14rem !important;
         margin: auto;
     }
 
-    .don{
+    .don {
 
         text-align: center;
         margin-top: 1rem;
     }
 
-    .donate-div{
+    .donate-div {
         padding-top: 0rem;
     }
 
@@ -1543,54 +1581,55 @@
         margin: auto;
     }
 
-.app-img{
+    .app-img {
 
-    visibility: hidden;
-    display: none;
+        visibility: hidden;
+        display: none;
 
-}
+    }
 
-.app-text {
+    .app-text {
 
-    color: rgb(27, 25, 25);
-    font-weight: bold;
-    margin-top: 3rem;
-    text-align: center;
+        color: rgb(27, 25, 25);
+        font-weight: bold;
+        margin-top: 3rem;
+        text-align: center;
 
-}
+    }
 
-.app-p{
+    .app-p {
 
-    font-size: 1rem;
-    text-align: center;
+        font-size: 1rem;
+        text-align: center;
 
-}
+    }
 
-.app-icon{
+    .app-icon {
 
-    width: 130px;
-    height: 50px;
-    text-align: center;
-}
+        width: 130px;
+        height: 50px;
+        text-align: center;
+    }
 
-.app-icons{
+    .app-icons {
 
-    text-align: center;
-}
+        text-align: center;
+    }
 
-#contact-us {
+    #contact-us {
 
-    padding: 1rem;    background-size: cover;
+        padding: 1rem;
+        background-size: cover;
 
-}
+    }
 
-.contact-content {
+    .contact-content {
 
-    display: block;
-    margin: auto;
-    margin-bottom: 2rem;
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
 
-}
+    }
 
     .whatsapp {
 
@@ -1603,16 +1642,16 @@
 
     }
 
-   .wts-img{
-       
-    text-align: left;
-    position: absolute;
-    top: 277rem;
-    width: 50px;
-    margin-right: -0.01rem;
+    .wts-img {
 
-}
-   
+        text-align: left;
+        position: absolute;
+        top: 277rem;
+        width: 50px;
+        margin-right: -0.01rem;
+
+    }
+
     #footer-container {
         margin: auto;
         padding-left: 0rem;
@@ -1620,83 +1659,85 @@
         padding-bottom: 1rem;
     }
 
-        .sub {
+    .sub {
 
-            width: 24%;
-            
-            display: contents;
+        width: 24%;
 
-          }
-        
-          .outer{
+        display: contents;
 
-              margin: auto;
-              text-align: center;
-          }
+    }
+
+    .outer {
+
+        margin: auto;
+        text-align: center;
+    }
 
 
-          .footer-text{
-              text-align: center;
-              padding-bottom: 1rem;
-          }
+    .footer-text {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
 
-          .n-hov5{
+    .n-hov5 {
 
-            padding-top: 1rem;
-            margin-bottom: 0rem;
+        padding-top: 1rem;
+        margin-bottom: 0rem;
 
-          }
+    }
 
-          .icon2 {
+    .icon2 {
 
-            text-align: center;
-            margin-right: 0rem;
+        text-align: center;
+        margin-right: 0rem;
 
-        }
+    }
 
-        .copy {
+    .copy {
 
-            display: inline-block;
+        display: inline-block;
 
-        }
-        .copy-right {
+    }
 
-            display: flex;
-            margin: auto;
-            text-align: center;
-            padding-top: 1rem;
-            margin-right: 3rem;
-        }
-             
+    .copy-right {
+
+        display: flex;
+        margin: auto;
+        text-align: center;
+        padding-top: 1rem;
+        margin-right: 3rem;
+    }
+
 }
-@media only screen and (min-width: 768px) and (max-width:1023px)
 
-{
+@media only screen and (min-width: 768px) and (max-width:1023px) {
     .i-area {
         width: 90%;
         text-align: center;
         margin: auto;
-}
+    }
 
-.contact1{
+    .contact1 {
 
-    margin-left: 2rem;
-    max-width: 330px;
-}
-    .contact2{
+        margin-left: 2rem;
+        max-width: 330px;
+    }
 
-        
+    .contact2 {
+
+
         margin-top: 0rem;
         max-width: 330px;
 
     }
-    
+
     .contact-data {
-    
+
         margin: 0rem;
 
-        }
-    body{
+    }
+
+    body {
 
         margin: auto;
         overflow-x: hidden;
@@ -1704,21 +1745,22 @@
 
     }
 
-    .bg-light{
+    .bg-light {
         text-align: center;
-    
+
     }
 
     .fa-gratipay {
-       
+
         right: 36rem;
-       
+
     }
+
     .home-nav {
 
         background: rgb(30, 30, 97);
         width: 100%;
-        padding-left: 0rem; 
+        padding-left: 0rem;
         padding-right: 0rem;
         padding: 1rem;
         text-align: center;
@@ -1729,7 +1771,7 @@
 
         background: rgb(243, 235, 235);
         width: 100%;
-        padding-left: 0rem; 
+        padding-left: 0rem;
         padding-right: 0rem;
         padding: 1rem;
         text-align: center;
@@ -1743,81 +1785,82 @@
     }
 
 
-    .n-hov{
+    .n-hov {
 
         display: block;
-        
+
     }
 
-    .home-nav1 a{
+    .home-nav1 a {
 
         border-left: none;
         padding: 2rem 2rem;
-        
+
     }
 
     .acc-hov {
-        margin-right: 0rem!important;
+        margin-right: 0rem !important;
         border-left: none !important;
         display: block;
     }
 
     .icon {
         text-align: center;
-         padding-right: 0rem; 
-         padding-left: 0rem; 
-         
+        padding-right: 0rem;
+        padding-left: 0rem;
+
     }
+
     .navbar-toggler {
-        
+
         background-color: #00000014;
         border: 1px solid transparent;
-        
-    }
-
-#header{
-
-    text-align: center;
-
-}
-
-.header-text {
-    color: rgb(167, 18, 18);
-    font-weight: bold;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-
-
-    .header-img{
-
-        width:100%;
 
     }
 
-    .h-img1{
+    #header {
+
+        text-align: center;
+
+    }
+
+    .header-text {
+        color: rgb(167, 18, 18);
+        font-weight: bold;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+
+    .header-img {
+
+        width: 100%;
+
+    }
+
+    .h-img1 {
 
         display: none;
         visibility: hidden;
 
     }
 
-    .a-img1{
+    .a-img1 {
 
         display: none;
         visibility: hidden;
 
     }
 
-    .a-img{
+    .a-img {
 
         margin-top: 10rem;
         margin-right: 0rem;
         padding: 0rem;
     }
 
-    #about{
-        padding:0rem;
+    #about {
+        padding: 0rem;
     }
 
     .about-text {
@@ -1828,87 +1871,89 @@
         text-align: center;
     }
 
-    .header-p{
+    .header-p {
 
         text-align: center;
 
     }
-    .article-card{
-        
+
+    .article-card {
+
         margin: auto;
     }
 
-    .don{
+    .don {
 
         text-align: right;
         margin-top: 1rem;
     }
 
-    .donate-div{
+    .donate-div {
         padding-top: 0rem;
     }
 
-.watch-more1{
-    margin-top: 2rem;
-}
+    .watch-more1 {
+        margin-top: 2rem;
+    }
 
     .input-group {
         width: 49%;
         margin: auto;
     }
 
-.app-img1{
+    .app-img1 {
 
-    visibility: hidden;
-    display: none;
+        visibility: hidden;
+        display: none;
 
-}
+    }
 
-.app-img{
-    margin-top: 4rem;
-}
+    .app-img {
+        margin-top: 4rem;
+    }
 
-.app-text {
+    .app-text {
 
-    color: rgb(27, 25, 25);
-    font-weight: bold;
-    margin-top: 3rem;
-    text-align: center;
+        color: rgb(27, 25, 25);
+        font-weight: bold;
+        margin-top: 3rem;
+        text-align: center;
 
-}
+    }
 
-.app-p{
+    .app-p {
 
-    font-size: 1rem;
-    text-align: center;
+        font-size: 1rem;
+        text-align: center;
 
-}
+    }
 
-.app-icon{
+    .app-icon {
 
-    width: 130px;
-    height: 50px;
-    text-align: center;
-}
+        width: 130px;
+        height: 50px;
+        text-align: center;
+    }
 
-.app-icons{
+    .app-icons {
 
-    text-align: center;
-}
+        text-align: center;
+    }
 
-#contact-us {
+    #contact-us {
 
-    padding: 2rem;    background-size: cover;
+        padding: 2rem;
+        background-size: cover;
 
-}
+    }
 
-.contact-content {
+    .contact-content {
 
-    display: block;
-    margin: auto;
-    margin-bottom: 2rem;
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
 
-}
+    }
 
     .whatsapp {
 
@@ -1921,16 +1966,16 @@
 
     }
 
-   .wts-img{
-       
-    text-align: left;
-    position: absolute;
-    top:209rem ;
-    width: 50px;
-    margin-right: -0.01rem;
+    .wts-img {
 
-}
-   
+        text-align: left;
+        position: absolute;
+        top: 209rem;
+        width: 50px;
+        margin-right: -0.01rem;
+
+    }
+
     #footer-container {
         margin: auto;
         padding-left: 0rem;
@@ -1939,88 +1984,89 @@
         padding-top: 1rem;
     }
 
-        .sub {
+    .sub {
 
-            width: 24%;
-            
-            display: contents;
+        width: 24%;
 
-          }
-        
-          .outer{
+        display: contents;
 
-              margin: auto;
-              text-align: center;
-          }
+    }
+
+    .outer {
+
+        margin: auto;
+        text-align: center;
+    }
 
 
-          .footer-text{
-              text-align: center;
-              padding-bottom: 1rem;
-          }
+    .footer-text {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
 
-          .n-hov5{
+    .n-hov5 {
 
-            padding-top: 1rem;
-            margin-bottom: 0rem;
+        padding-top: 1rem;
+        margin-bottom: 0rem;
 
-          }
+    }
 
-          .icon2 {
+    .icon2 {
 
-            text-align: center;
-            margin-right: 0rem;
+        text-align: center;
+        margin-right: 0rem;
 
-        }
+    }
 
-        .copy {
+    .copy {
 
-            display: inline-block;
+        display: inline-block;
 
-        }
-        .copy-right {
+    }
 
-            display: flex;
-            text-align: center;
-            padding-top: 1rem;
-            margin-right: 3rem;
-            margin-right: 15rem;
-        }
-             
+    .copy-right {
+
+        display: flex;
+        text-align: center;
+        padding-top: 1rem;
+        margin-right: 3rem;
+        margin-right: 15rem;
+    }
+
 }
 
-@media only screen and (min-width: 1024px) and (max-width:1200px)
+@media only screen and (min-width: 1024px) and (max-width:1200px) {
 
-{
 
-  
 
     .i-area {
         width: 90%;
         text-align: center;
         margin: auto;
-}
+    }
 
-.contact1{
+    .contact1 {
 
-    margin-left: 2rem;
-    
-    margin-right: 3rem;
-}
-    .contact2{
+        margin-left: 2rem;
 
-        
+        margin-right: 3rem;
+    }
+
+    .contact2 {
+
+
         margin-top: 0rem;
-        
+
 
     }
-    
+
     .contact-data {
-    
+
         margin: 0rem;
 
-        }
-    body{
+    }
+
+    body {
 
         margin: auto;
         overflow-x: hidden;
@@ -2028,22 +2074,22 @@
 
     }
 
-    .bg-light{
+    .bg-light {
         text-align: center;
-    
+
     }
 
     .fa-gratipay {
-       
+
         right: 35rem;
-       
+
     }
 
     .home-nav {
 
         background: rgb(30, 30, 97);
         width: 100%;
-        padding-left: 0rem; 
+        padding-left: 0rem;
         padding-right: 0rem;
         padding: 1rem;
         text-align: center;
@@ -2054,7 +2100,7 @@
 
         background: rgb(243, 235, 235);
         width: 100%;
-        padding-left: 0rem; 
+        padding-left: 0rem;
         padding-right: 0rem;
         padding: 1rem;
         text-align: center;
@@ -2072,28 +2118,29 @@
         margin: 0 auto;
         width: 150px;
     }
-    .n-hov{
+
+    .n-hov {
 
         display: block;
-        padding-left: 1rem!important;
+        padding-left: 1rem !important;
     }
 
-    .n-hov1{
+    .n-hov1 {
 
         margin-right: 3rem !important;
 
     }
 
-    .home-nav1 a{
+    .home-nav1 a {
 
-        
+
         padding: 2rem 0rem;
-        
+
     }
 
     .acc-hov {
 
-        margin-right: 0rem!important;
+        margin-right: 0rem !important;
         border-left: none !important;
         display: block;
     }
@@ -2102,66 +2149,66 @@
         text-align: center;
         padding-right: 0rem;
         padding-left: 0rem;
-         
+
     }
 
-    .nav2{
+    .nav2 {
 
         padding-right: 2rem;
     }
 
     .navbar-toggler {
-        
+
         background-color: #00000014;
         border: 1px solid transparent;
-        
-    }
-
-#header{
-
-    text-align: center;
-
-}
-
-.header-text {
-
-    color: rgb(167, 18, 18);
-    font-weight: bold;
-    margin-top: 3rem;
-    
-}
-
-
-    .header-img{
-
-        width:100%;
 
     }
 
-    .h-img1{
+    #header {
+
+        text-align: center;
+
+    }
+
+    .header-text {
+
+        color: rgb(167, 18, 18);
+        font-weight: bold;
+        margin-top: 3rem;
+
+    }
+
+
+    .header-img {
+
+        width: 100%;
+
+    }
+
+    .h-img1 {
 
         display: none;
         visibility: hidden;
 
     }
 
-    .a-img1{
+    .a-img1 {
 
         display: none;
         visibility: hidden;
 
     }
 
-    .a-img{
+    .a-img {
 
         margin-top: 10rem;
         margin-right: 0rem;
         padding: 0rem;
     }
 
-    #about{
+    #about {
 
-        padding:0rem;
+        padding: 0rem;
     }
 
     .about-text {
@@ -2172,89 +2219,91 @@
         text-align: center;
     }
 
-    .header-p{
+    .header-p {
 
         text-align: center;
         margin-top: 1rem;
         margin-bottom: 1rem;
 
     }
-    .article-card{
-        
+
+    .article-card {
+
         margin: auto;
     }
 
-    .don{
+    .don {
 
         text-align: right;
         margin-top: 1rem;
     }
 
-    .donate-div{
+    .donate-div {
         padding-top: 0rem;
     }
 
-.watch-more1{
-    margin-top: 2rem;
-}
+    .watch-more1 {
+        margin-top: 2rem;
+    }
 
     .input-group {
         width: 49%;
         margin: auto;
     }
 
-.app-img1{
+    .app-img1 {
 
-    visibility: hidden;
-    display: none;
+        visibility: hidden;
+        display: none;
 
-}
+    }
 
-.app-img{
-    margin-top: 4rem;
-}
+    .app-img {
+        margin-top: 4rem;
+    }
 
-.app-text {
+    .app-text {
 
-    color: rgb(27, 25, 25);
-    font-weight: bold;
-    margin-top: 3rem;
-    text-align: center;
+        color: rgb(27, 25, 25);
+        font-weight: bold;
+        margin-top: 3rem;
+        text-align: center;
 
-}
+    }
 
-.app-p{
+    .app-p {
 
-    font-size: 1rem;
-    text-align: center;
+        font-size: 1rem;
+        text-align: center;
 
-}
+    }
 
-.app-icon{
+    .app-icon {
 
-    width: 130px;
-    height: 50px;
-    text-align: center;
-}
+        width: 130px;
+        height: 50px;
+        text-align: center;
+    }
 
-.app-icons{
+    .app-icons {
 
-    text-align: center;
-}
+        text-align: center;
+    }
 
-#contact-us {
+    #contact-us {
 
-    padding: 2rem;    background-size: cover;
+        padding: 2rem;
+        background-size: cover;
 
-}
+    }
 
-.contact-content {
+    .contact-content {
 
-    display: block;
-    margin: auto;
-    margin-bottom: 2rem;
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
 
-}
+    }
 
     .whatsapp {
 
@@ -2267,16 +2316,16 @@
 
     }
 
-   .wts-img{
-       
-    text-align: left;
-    position: absolute;
-    top:215rem ;
-    width: 50px;
-    margin-right: -0.01rem;
+    .wts-img {
 
-}
-   
+        text-align: left;
+        position: absolute;
+        top: 215rem;
+        width: 50px;
+        margin-right: -0.01rem;
+
+    }
+
     #footer-container {
         margin: auto;
         padding-left: 0rem;
@@ -2288,91 +2337,96 @@
     .footer-vec {
         padding-left: 0rem;
     }
-          .outer{
 
-              margin: auto;
-              text-align: center;
-          }
+    .outer {
+
+        margin: auto;
+        text-align: center;
+    }
 
 
-          .footer-text{
-              text-align: center;
-              padding-bottom: 1rem;
-          }
+    .footer-text {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
 
-          .n-hov5{
+    .n-hov5 {
 
-            padding-top: 1rem;
-            margin-bottom: 0rem;
+        padding-top: 1rem;
+        margin-bottom: 0rem;
 
-          }
+    }
 
-          .icon2 {
+    .icon2 {
 
-            text-align: center;
-            
+        text-align: center;
 
-        }
 
-        .copy-right {
+    }
 
-            display: flex;
-            text-align: center;
-            padding-top: 1rem;
-            margin-right: 21rem;
-        }
+    .copy-right {
 
-        .icon2 {
-            text-align: center;
-            margin-right: 5rem;
-        }
-             
+        display: flex;
+        text-align: center;
+        padding-top: 1rem;
+        margin-right: 21rem;
+    }
+
+    .icon2 {
+        text-align: center;
+        margin-right: 5rem;
+    }
+
 }
 
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
     .topnav a.icon {
 
-      float: right;
-      display: block;
+        float: right;
+        display: block;
 
     }
 
 
-  }
-  
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 600px) {
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
 
     .topnav .pages-nav .responsive {
 
-     position: relative;
-     display: block;
-     padding: 2rem;
+        position: relative;
+        display: block;
+        padding: 2rem;
 
     }
 
-    #logo{
-        
+    #logo {
+
         display: none;
-    
+
     }
 
     .topnav .pages-nav .responsive a.icon {
 
-      position: absolute;
-      right: 0;
-      top: 0;
-      padding: 2rem;
-    
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 2rem;
+
     }
+
     .topnav.responsive .pages-nav a {
 
-      float: none;
-      display: block;
-      text-align: left;
+        float: none;
+        display: block;
+        text-align: left;
     }
-  }
+}

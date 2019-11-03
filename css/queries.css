@@ -6,20 +6,16 @@
 
     }
 
+
     #vantajs {
 
-        padding: 0rem;
-        padding-top: 8rem !important;
         margin: auto;
 
     }
 
-
-   
-
     .header-text {
 
-        font-size: 20pt;
+        font-size: 10pt;
 
     }
 
@@ -43,12 +39,13 @@
     .skill-bar {
 
         padding-top: 2rem;
+        padding: 2rem;
 
     }
 
     .skills {
 
-        padding-bottom: 3rem;
+        padding-bottom: 0rem !important;
         padding-top: 3rem;
 
     }
@@ -66,6 +63,35 @@
 
     .contact-form {
         padding: 1rem;
+    }
+
+    .INTRO {
+
+        font-size: 60% !important;
+    }
+
+    .mod-title {
+
+        font-size: 200% !important;
+
+    }
+
+    .img-modal {
+        width: 240px;
+        height: 300px;
+    }
+
+    .to-top {
+        padding-top: 0.5rem;
+        padding: 0rem !important;
+    }
+
+    #contact {
+        padding-bottom: 1rem;
+    }
+
+    .icon-wrap {
+        margin-top: 0rem !important;
     }
 }
 
@@ -77,10 +103,10 @@
 
     }
 
+
+
     #vantajs {
 
-        padding: 0rem;
-        padding-top: 8rem;
         margin: auto;
 
     }
@@ -136,6 +162,13 @@
         padding: 1rem;
     }
 
+    .to-top {
+        padding: 0.5rem;
+    }
+
+    #contact {
+        padding-bottom: 1rem;
+    }
 
 }
 
@@ -147,10 +180,10 @@
 
     }
 
+
+
     #vantajs {
 
-        padding: 0rem;
-        padding-top: 12rem;
         margin: auto;
 
     }
@@ -220,6 +253,13 @@
         padding-bottom: 2rem;
     }
 
+    .to-top {
+        padding: 0.5rem;
+    }
+
+    #contact {
+        padding-bottom: 1rem;
+    }
 
 }
 
@@ -229,8 +269,6 @@
 
     #vantajs {
 
-        padding: 0rem;
-        padding-top: 10rem;
         margin: auto;
 
     }
@@ -300,4 +338,11 @@
         padding-bottom: 2rem;
     }
 
+    .to-top {
+        padding: 0.5rem;
+    }
+
+    #contact {
+        padding-bottom: 1rem;
+    }
 }
