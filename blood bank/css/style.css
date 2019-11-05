@@ -760,7 +760,10 @@ input[type=text]:placeholder {
 
 }
 
-
+.last-donate{
+  text-align: right;
+  float:right;
+}
 
 .calender-picker {
 

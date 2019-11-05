@@ -568,9 +568,16 @@ nav .active {
 .btn-primary:hover {
 
   background-color: rgba(24, 40, 101, 0.4);
-  color: white;
+  color: white !important;
 
 }
+
+.btn-primary a:hover {
+  
+  color: white !important;
+
+}
+
 
 .carousel {
 
