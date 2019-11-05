@@ -178,6 +178,7 @@ nav .active {
   line-height: 45pt;
   z-index: 1;
   pointer-events: none;
+  text-transform: capitalize;
 
 }
 
@@ -226,9 +227,8 @@ nav .active {
 
   display: flex;
   align-items: center;
-  /* horizontal */
   justify-content: center;
-  /* vertical */
+  text-transform: capitalize;
 }
 
 .head-line {
@@ -455,9 +455,8 @@ nav .active {
 
   display: flex;
   align-items: center;
-  /* horizontal */
   justify-content: center;
-  /* vertical */
+  text-transform: capitalize;
 }
 
 #portfolio .portfolio-item {
@@ -718,9 +717,8 @@ nav .active {
 
   display: flex;
   align-items: center;
-  /* horizontal */
   justify-content: center;
-  /* vertical */
+  text-transform: capitalize;
 
 }
 
@@ -733,6 +731,7 @@ nav .active {
 label {
 
   float: left;
+  
 }
 
 
@@ -762,7 +761,6 @@ footer {
 
   color: #fb1f7b;
   
-
 }
 
 
