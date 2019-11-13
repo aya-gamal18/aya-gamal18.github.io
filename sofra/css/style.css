@@ -1,0 +1,1595 @@
+* {
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: gray;
+  overflow-x: hidden;
+  text-align: right;
+  font-family: 'El Messiri', sans-serif;
+  direction: rtl;
+  overflow-y: visible;
+
+}
+
+html,
+body {
+
+  height: 100%;
+
+}
+
+.modal-footer {
+  margin: auto;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.fa-arrow-alt-circle-up {
+
+  font-size: 35pt;
+  color: #cb214e81;
+
+}
+
+.navbar {
+
+  display: flex;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  background-color: #e7e6e6 !important;
+
+}
+
+.nav1 {
+
+  display: contents;
+  margin: auto;
+
+}
+
+.n-hov1 {
+
+  margin: auto;
+  color: #f52b7f;
+
+}
+
+.nav2 {
+
+  text-align: center;
+  padding: 0rem;
+  margin: auto;
+  padding-right: 5rem;
+
+}
+
+.nav3 {
+
+  text-align: left;
+  margin: auto;
+  color: #f52b7f;
+
+}
+
+.has-search {
+
+  width: 20%;
+  border-radius: 50px;
+  margin-right: 2rem;
+  margin: auto;
+  direction: ltr;
+
+}
+
+
+.has-search .form-control {
+
+  padding-left: 3rem;
+  border-radius: 50px;
+
+}
+
+.has-search .form-control-feedback {
+
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #f52b7f;
+
+}
+
+header {
+
+  background: url(../imgs/header.png);
+  margin: auto;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5rem;
+  width: 100%;
+
+}
+
+.header-p {
+
+  width: fit-content;
+  margin: auto;
+
+}
+
+.header-p1 {
+
+  font-size: 8rem;
+  transform: rotate(-20deg);
+  margin: auto;
+
+}
+
+.header-p2 {
+
+  font-size: 2rem;
+
+}
+
+.sofra-btn {
+
+  padding: 8px 40px;
+  background-image: linear-gradient(to top, #b2134c, #ba174d, #c11b4e, #c9204e, #d0244f);
+  color: white;
+  border-radius: 20px;
+
+}
+
+.sofra-btn3 {
+
+  padding: 8px 80px;
+  background-image: linear-gradient(to top, #b2134c, #ba174d, #c11b4e, #c9204e, #d0244f);
+  color: white;
+  border-radius: 10px;
+
+}
+
+
+.sofra-btn3:hover {
+
+  background-color: #f52b7f98;
+  color: white;
+
+}
+
+.sofra-btn:hover {
+
+  background-color: #f52b7fb4;
+  color: white;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#search-restraunt {
+
+  background: url(../imgs/Group\ 1034-min.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: auto;
+  text-align: center;
+
+}
+
+.head-line {
+  font-weight: bolder;
+  color: rgb(82, 78, 78);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+
+.head-line3 {
+  font-weight: bolder;
+  color: #f52b7f;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.search-input {
+
+  margin: auto;
+  display: inline-flex;
+  margin-bottom: 1.5rem;
+
+}
+
+#city-select {
+
+  padding: 6px 145.4px;
+  margin: 0;
+  color: #797073;
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 50px;
+  text-align: center;
+
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  #city-select {
+    padding-right: 18px
+  }
+}
+
+#select-label {
+  position: relative
+}
+
+#select-label :after {
+
+  content: "\f063";
+  font-family: "FontAwesome";
+  font-size: 15px;
+  color: #f52b7f;
+  left: 20px;
+  top: 6px;
+  margin-top: 2px;
+  padding: 0 0 2px;
+  position: absolute;
+  pointer-events: none;
+  border-radius: 50px;
+
+}
+
+#select-label :before {
+  content: '';
+  right: 4px;
+  top: 0px;
+  width: 23px;
+  height: 18px;
+  position: absolute;
+  pointer-events: none;
+  display: block;
+}
+
+.has-search2 {
+
+  width: 20%;
+  border-radius: 50px;
+  margin-right: 2rem;
+  margin: auto;
+  direction: ltr;
+  margin-top: 0rem;
+
+}
+
+.has-search2 .form-control {
+
+  padding-left: 3rem;
+  border-radius: 50px;
+  color: #797073;
+  text-align: right;
+
+}
+
+.has-search2 .form-control-feedback {
+
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  pointer-events: none;
+  color: #f52b7f;
+
+}
+
+.card {
+
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+
+
+
+.card-addcart {
+
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 60%;
+  box-shadow: 0px 5px rgba(128, 128, 128, 0.336);
+
+}
+
+
+
+.card3 {
+
+  display: block;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 226, 226);
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  width: 60%;
+
+
+}
+
+.card-row {
+  width: 100%;
+}
+
+.card-body {
+
+  display: inline-flex;
+  color: gray;
+  margin: auto;
+  text-align: right;
+  padding: 0rem;
+}
+
+.img-col {
+
+  margin: auto;
+
+}
+
+.card-img {
+
+  float: right;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+
+}
+
+.card-text {
+
+  font-size: 1.5rem;
+
+}
+
+.fa-star {
+
+  color: orangered;
+
+}
+
+.checked {
+
+  color: gray;
+
+}
+
+.fa-circle {
+
+  color: rgb(103, 189, 38);
+  padding: 0.3rem;
+
+}
+
+.open {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.card-title {
+
+  font-size: 1.5rem;
+  color: #c70f36;
+
+}
+
+.card-text2 {
+
+  font-size: 1rem;
+  color: gray;
+
+}
+
+#offers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 3rem;
+}
+
+#offer {
+
+  background: url(../imgs/offers-bg.jpg);
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-position: center;
+
+
+}
+
+
+
+.offer-text {
+
+  color: white;
+  font-size: 200%;
+  padding: 3rem;
+
+}
+
+#app {
+
+  background: url(../imgs/our-app.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 3rem;
+  padding-bottom: 0rem;
+  text-align: center;
+  color: white;
+
+}
+
+.app1 {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.head-line2 {
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.sofra-btn2 {
+
+  padding: 20px 100px;
+  background: url(../imgs/download\ button.png);
+  color: white;
+  border-radius: 20px;
+  background-position-y: center;
+  font-size: 200%;
+
+}
+
+.sofra-btn2:hover {
+
+  background-color: #f52b7fb4;
+  color: white;
+
+}
+
+
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#formContent {
+  border-radius: 10px 10px 10px 10px;
+  background: rgb(231, 230, 230);
+  padding: 2rem;
+  width: 100%;
+  max-width: 450px;
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+
+
+
+h2.inactive {
+
+  color: #cccccc;
+}
+
+h2.active {
+  color: #0d0d0d;
+  border-bottom: 2px solid #5fbae9;
+}
+
+.form-img {
+  padding-bottom: 0.5rem;
+}
+
+#text-area {
+
+  width: 24rem;
+  padding: 10px;
+  border-radius: 10px;
+  border: #cec6c642 solid 2px;
+  margin-bottom: 1rem;
+  background-color: rgba(241, 241, 241, 0.8);
+}
+
+#form-text {
+
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #cec6c642;
+  margin-bottom: 1rem;
+  background-color: rgb(241, 241, 241, 0.8);
+  color: rgb(116, 114, 114);
+
+}
+
+.dicon {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #636162;
+  left: 225px;
+  bottom: 68px;
+}
+
+.dicon2 {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #636162;
+  left: 65px;
+  bottom: 68px;
+}
+
+.calender {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+}
+
+
+.date-input {
+  border-radius: 20px;
+  background-color: rgb(241, 241, 241, 0.8);
+  padding: 0px 10px;
+
+}
+
+.form-button {
+  margin-top: 2rem;
+}
+
+#formContent2 {
+  border-radius: 10px 10px 10px 10px;
+  background: white;
+  padding: 2rem;
+  width: 70%;
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.form-img {
+  padding-bottom: 0.5rem;
+}
+
+#text-area {
+
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: #cec6c642 solid 2px;
+  margin-bottom: 1rem;
+  background-color: rgba(241, 241, 241, 0.8);
+
+}
+
+#cart {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: url(../imgs/cart-bg.png);
+  padding: 3rem;
+  text-align: center;
+
+}
+
+
+.cart-row {
+
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.col-md-12 {
+
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.col1 {
+  margin-bottom: 2rem;
+  margin: auto;
+}
+
+
+#cart2 {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: url(../imgs/cart-bg.png);
+  padding: 10rem;
+  text-align: center;
+
+}
+
+.cart-empty-btn {
+  margin-top: 3rem;
+}
+
+#number-select {
+  color: #b2134c;
+  background-color: #f3eded;
+  border: none;
+  border-radius: 5px;
+}
+
+
+#formContent3 {
+  border-radius: 10px 10px 10px 10px;
+  background-image: linear-gradient(to right top, #a50d4a, #ac104b, #b3144c, #b9174d, #c01b4e, #c51e4f, #cb214f, #d02450, #d62751, #db2a51, #e12e52, #e63152);
+  padding: 2rem;
+  width: 100%;
+  max-width: 450px;
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+
+#text-area2 {
+
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  border: #cec6c642 solid 2px;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+
+#form-text2 {
+
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  border-color: #cec6c642;
+  margin-bottom: 1rem;
+  background-color: white;
+
+}
+
+.contact-radio {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2rem;
+  margin: 2rem;
+}
+
+/* The radio */
+.radio {
+
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-left: 2rem;
+  margin-bottom: 12px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+
+/* Hide the browser's default radio button */
+.radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkround {
+
+  position: absolute;
+  top: 6px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+}
+
+
+/* When the radio button is checked, add a blue background */
+.radio input:checked~.checkround {
+  background-color: rgb(46, 14, 70);
+  border-color: rgb(46, 14, 70);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkround:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio input:checked~.checkround:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio .checkround:after {
+  left: 2px;
+  top: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgb(46, 14, 70);
+  border-color: rgb(46, 14, 70);
+}
+
+
+.sofra-btn4 {
+
+  padding: 8px 80px;
+  background-color: rgb(46, 14, 70);
+  color: white;
+  border-radius: 30px;
+
+}
+
+
+.sofra-btn4:hover {
+
+  background-color: rgba(46, 14, 70, 0.61);
+  color: white;
+
+}
+
+
+#cart3 {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+.active {
+
+  border-bottom: solid 8px rgba(46, 14, 70, 0.61);
+
+}
+
+#res-nav {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  background-image: linear-gradient(to top, #b2134c, #ba174d, #c11b4e, #c9204e, #d0244f);
+  margin-bottom: 2rem;
+
+}
+
+.res-nav {
+  padding: 1rem;
+}
+
+.res-nav a {
+  color: white;
+}
+
+
+.res-nav:hover {
+
+  color: white;
+  border-bottom: solid 8px rgba(46, 14, 70, 0.61);
+
+}
+
+.cart-row2 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: fit-content;
+}
+
+
+
+.card2 {
+
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 30rem !important;
+
+}
+
+
+.card-img2 {
+
+  float: right;
+  width: 130px;
+  height: 130px;
+  margin: auto;
+  border-radius: 50%;
+  border: solid rgb(95, 15, 15);
+}
+
+
+.open2 {
+
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 1.5rem;
+  width: fit-content;
+}
+
+.card-title2 {
+
+  font-size: 1rem;
+  color: #c70f36;
+
+}
+
+.card-text3 {
+  font-size: 0.8rem;
+
+}
+
+.sofra-btn5 {
+  padding: 5px 35px;
+  background-color: rgb(33, 172, 33);
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.089);
+}
+
+
+.sofra-btn5c {
+  padding: 5px 35px;
+  background-color: rgb(33, 172, 33);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.089);
+}
+
+
+.sofra-btn5:hover {
+  padding: 5px 35px;
+  background-color: rgba(33, 172, 33, 0.418);
+  color: white;
+}
+
+
+.sofra-btn5c:hover {
+  padding: 5px 35px;
+  background-color: rgba(33, 172, 33, 0.418);
+  color: white;
+}
+
+
+.sofra-btn6 {
+
+  padding: 5px 42px;
+  background-color: rgb(207, 51, 51);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.089);
+
+}
+
+
+.sofra-btn6:hover {
+  padding: 5px 42px;
+  background-color: rgba(207, 51, 51, 0.61);
+  color: white;
+}
+
+.sofra-btn7 {
+
+  padding: 5px 30px;
+  background-color: #db2a51;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.089);
+
+}
+
+
+.sofra-btn7 a:hover {
+  padding: 10px 10px;
+  background-color: #db2a50c0;
+  color: white;
+}
+
+.cart2-row {
+
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.card-title3 {
+  font-size: 1rem;
+  color: rgb(71, 71, 71);
+}
+
+.card-text3 {
+  font-size: 0.8rem;
+  color: rgb(90, 39, 39);
+}
+
+.cart-button2 {
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+.sofra-btn8 {
+
+  padding: 5px 40px;
+  background-color: rgb(46, 14, 70);
+  color: white;
+  border-radius: 30px;
+
+}
+
+
+.sofra-btn8:hover {
+
+  background-color: rgba(46, 14, 70, 0.61);
+  color: white;
+
+}
+
+#offers1 {
+
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  text-align: center;
+
+}
+
+.col2 {
+  margin-bottom: 2rem !important;
+  margin: auto;
+}
+
+.offer-img {
+  border-radius: 20px;
+
+}
+
+.offer-btn {
+  padding-bottom: 2rem;
+}
+
+.modal-header{
+  background-color: #ac104cc2;
+  text-align: center;
+  color: white;
+}
+
+.modal-title{
+  text-align: center;
+  margin: auto;
+  margin-left: -2rem;
+}
+
+.vertical-line {
+
+  border-right: 3px solid #a50d4a;
+  height: 50px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.head-line4 {
+
+  color: #a50d4a;
+  text-align: right;
+  padding-right: 1rem;
+
+}
+
+#register {
+  background: url(../imgs/bg\ img.png);
+}
+
+.reg-modal{
+  display: grid;
+}
+
+#register2 {
+  background: url(../imgs/bg\ img.png);
+  padding: 3rem;
+}
+
+.register-footer {
+  text-align: right;
+  font-size: 0.7rem;
+  color: black;
+  margin: auto;
+  justify-content: center;
+  padding-right: 1rem;
+  display: inline-flex;
+}
+
+.rights {
+  color: #ac104b;
+}
+
+
+.reg-a1 {
+  padding: 1rem;
+  color: #a50d4a;
+  padding-left: 11rem;
+}
+
+.reg-a1 a {
+
+  color: #a50d4a;
+
+}
+
+
+.reg-a2 a {
+
+  color: #a50d4a;
+
+}
+
+
+.reg-a2 {
+  padding: 1rem;
+  color: #a50d4a;
+}
+
+
+#header2 {
+
+  background: url(../imgs/Group\ 1038.jpg);
+  margin: auto;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5rem;
+
+}
+
+.rating {
+
+  padding: 10px 10px;
+  background-color: white;
+  margin: auto;
+  border-radius: 30px;
+  align-items: center;
+  text-align: center;
+  width: 20%;
+  margin-top: 4rem;
+
+}
+
+.food-container {
+
+  margin: auto;
+  padding: 2rem;
+
+}
+
+.card4 {
+
+  display: block;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  width: 100%;
+
+}
+
+.food-img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+.fa-times-circle {
+
+  color: rgba(27, 27, 36) !important;
+  padding: 0rem !important;
+  font-size: 45px !important;
+  position: absolute;
+  right: 4rem;
+  top: 1rem;
+}
+
+.fa-times-circle:hover {
+
+  color: rgb(26, 6, 6, 0.7) !important;
+
+
+}
+
+.dropdown {
+  margin: auto;
+
+}
+
+.header2-p {
+  margin: auto;
+  margin-top: 4rem;
+}
+
+
+.sofra-btn9 {
+
+  padding: 5px 30px;
+  background: url(../imgs/download\ button.png);
+  color: white;
+  border-radius: 20px;
+  background-position-y: center;
+
+}
+
+.sofra-btn9:hover {
+
+  background-color: #f52b7fb4;
+  color: white;
+
+}
+
+.margin {
+  margin-top: 1rem;
+}
+
+.fa-motorcycle {
+  font-size: 15pt;
+  color: rgba(0, 0, 0, 0.589);
+}
+
+#header3 {
+  background: url(../imgs/bg.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  color: black;
+}
+
+.header3-img {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+
+}
+
+.card-text4 {
+
+
+  text-align: right;
+  margin: auto !important;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-bottom: 2rem;
+  border-bottom: solid 2px gray;
+}
+
+
+.sofra-btn10 {
+
+  padding: 5px 50px;
+  background: url(../imgs/Group\ 1039.png);
+  color: white;
+  border-radius: 20px;
+  background-position-y: center;
+  background-position-x: left;
+  background-size: cover;
+  margin-bottom: 2rem;
+
+}
+
+.sofra-btn10:hover {
+
+  background-color: #f52b7fb4;
+  color: white;
+
+}
+
+#info {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#add-review {
+
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+
+}
+
+.review {
+  background-color: rgb(207, 204, 204);
+  border-radius: 30px;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-content: center;
+  color: #a50d4a;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+
+}
+
+
+
+
+.rating2 {
+
+  padding: 5px 15px;
+  background-color: white;
+  border-radius: 30px;
+  width: fit-content;
+  text-align: center;
+  justify-content: center;
+  color: #db6089;
+
+}
+
+
+.rating3 {
+
+  padding: 5px 15px;
+  background-color: rgb(233, 227, 227);
+  border-radius: 30px;
+  width: fit-content;
+  text-align: center;
+  justify-content: center;
+  color: #db6089;
+  margin: auto;
+  margin-bottom: 2rem;
+
+}
+
+#rev-text {
+
+  background-color: rgb(233, 227, 227);
+  border-radius: 30px;
+  padding: 1rem;
+  box-shadow: 0 3px 0 0 rgba(128, 128, 128, 0.288);
+  width: 100%;
+
+}
+
+.rev-btn {
+  text-align: center;
+  margin: auto;
+}
+
+.rev-p {
+
+  text-align: right;
+  margin-top: 0.5rem;
+  color: #a50d4a;
+
+}
+
+.review-p2 {
+
+  color: #a50d4a;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 2rem;
+}
+
+.meals {
+  display: inline-flex;
+}
+
+.portfolio-hover {
+  position: absolute;
+  width: 92%;
+  height: 100%;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: #17181893;
+}
+
+
+.portfolio-hover:hover {
+  opacity: 1;
+}
+
+.portfolio-hover-content {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: white;
+}
+
+#footer {
+
+  background: url(../imgs/footer\ bg.png);
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#footer-container {
+
+  margin: auto;
+
+}
+
+.footer-text {
+
+  color: white;
+  padding-top: 1rem;
+  display: block;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-title {
+
+  color: white;
+
+}
+
+.copy-right {
+
+  display: flex;
+  margin: auto;
+  text-align: center;
+  padding-top: 1rem;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer-vec {
+
+  width: 50%;
+
+}
+
+.footer-icon {
+
+  margin: auto;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.footer-icon a {
+
+  margin: 1rem;
+  color: white;
+
+}
+
+.footer-icon:hover {
+
+  opacity: 0.5;
+
+}
+
+.copy {
+
+  background: rgb(46, 14, 70);
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.c-p {
+  color: white;
+  margin-bottom: 0rem;
+}
+
+.copy-right {
+
+  margin: auto;
+  padding: 1rem;
+
+}
+
+.copy-p {
+
+  margin-bottom: 0rem;
+
+}
+
+.fa-facebook-f:hover {
+
+  color: #3323ad;
+
+}
+
+.fb {
+
+  color: #3323ad;
+
+}
+
+.fa-twitter:hover {
+
+  color: #1e8beb;
+
+}
+
+.twt {
+
+  color: #1e8beb;
+
+}
+
+.fa-instagram:hover {
+
+  color: rgb(197, 51, 75);
+
+}
+
+
+
+.wtsicon {
+
+  color: rgb(51, 139, 51);
+
+}
+
+.fa-whatsapp:hover {
+  color: rgb(51, 139, 51);
+}

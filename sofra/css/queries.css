@@ -1,0 +1,1034 @@
+/* small phones from 0 to 480px*/
+
+@media only screen and (max-width: 480px) {
+
+
+
+    .navbar {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .nav1 {
+        display: block;
+        margin: auto;
+    }
+
+
+    .dropdown {
+
+        margin: auto;
+        display: inline-block;
+        padding-right: 1rem;
+
+    }
+
+    .has-search {
+
+        width: 250px !important;
+        padding-top: 1rem;
+    }
+
+    .nav2 {
+
+        padding-right: 0rem !important;
+        margin: auto;
+        padding-top: 1rem;
+
+    }
+
+    .nav3 {
+
+        text-align: center;
+        padding-top: 1rem;
+        padding-right: 1rem;
+    }
+
+    .header-p1 {
+        font-size: 500%;
+
+    }
+
+
+    .header-p2 {
+        font-size: 150%;
+    }
+
+    header {
+        padding: 2rem;
+    }
+
+    #search-restraunt {
+
+        padding: 0rem;
+        padding-top: 1rem;
+    }
+
+    .has-search2 {
+
+        width: 270px;
+
+    }
+
+    .card-addcart {
+
+        width: 100%;
+    }
+
+    .img-col {
+        margin: auto;
+        text-align: center;
+        padding-bottom: 1rem;
+
+    }
+
+    .open2 {
+        text-align: center;
+    }
+
+    .card-img {
+
+        float: none;
+
+    }
+
+    .card-img2 {
+        float: none;
+    }
+
+    .card-body {
+
+        display: block;
+        text-align: center;
+
+    }
+
+
+    .fa-circle {
+
+        color: rgb(103, 189, 38);
+        text-align: center;
+
+    }
+
+
+    .open {
+
+        font-size: 1rem;
+        text-align: center;
+        align-items: baseline;
+    }
+
+    #offers {
+
+        padding: 0rem;
+
+    }
+
+    #offer {
+        font-size: 0.7rem;
+        width: 100%;
+        padding: 0rem;
+        margin: 0rem;
+        background-position: center;
+    }
+
+    #app {
+
+        padding-top: 2rem !important;
+        padding: 0rem;
+
+    }
+
+    .sofra-btn2 {
+        background-repeat: no-repeat;
+        background-position-y: inherit;
+        font-size: 2rem;
+        padding: 20px 50px;
+    }
+
+    #register2 {
+
+        padding: 0rem;
+
+    }
+
+    #formContent3 {
+        padding: 0rem;
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        padding: 0px;
+        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+
+    #formContent2 {
+        padding: 1rem !important;
+        width: 100%;
+        position: relative;
+        padding: 0px;
+        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .reg-a1 {
+
+        padding-left: 0rem;
+    }
+
+    .sofra-btn3 {
+
+        padding: 5px 30px;
+        margin: auto;
+
+    }
+
+    .calender {
+
+        display: block;
+        margin: auto;
+
+    }
+
+    .date {
+        margin-top: 1rem;
+    }
+
+    .footer-text {
+        text-align: center;
+        padding-bottom: 0rem;
+    }
+
+    #cart2 {
+        padding: 2rem;
+    }
+
+
+    .contact-radio {
+        display: block;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0rem;
+        margin: 0rem;
+    }
+
+    .offer-btn {
+        padding-top: 1rem;
+    }
+
+
+    #res-nav {
+
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        background-image: linear-gradient(to top, #b2134c, #ba174d, #c11b4e, #c9204e, #d0244f);
+        margin-bottom: 2rem;
+
+    }
+
+    .res-nav a h1 {
+        font-size: 1.5rem;
+    }
+
+    #cart3 {
+        padding: 0rem;
+    }
+
+    .card-row {
+        margin: auto;
+    }
+
+    .img-col {
+        padding: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .cart-button2 {
+        display: grid;
+        margin: auto;
+    }
+
+
+    .sofra-btn5c {
+
+        margin-top: 1rem;
+
+    }
+
+    .sofra-btn8 {
+
+        margin-top: 1rem;
+
+    }
+
+    .header3-img {
+
+        width: 100%;
+        border-radius: 20px;
+        height: 300px;
+        margin-bottom: 1rem;
+
+    }
+
+    .rev-p {
+        text-align: center;
+
+    }
+
+    .rating2 {
+        margin: auto;
+    }
+
+    .review-p2 {
+        padding: 0rem;
+        padding-top: 1rem;
+    }
+
+    .meals {
+
+        display: block;
+
+    }
+
+    .meal {
+        margin-top: 1rem;
+    }
+
+    .card3 {
+        width: 100%;
+    }
+
+    #store-img {
+        display: block;
+        margin: auto;
+    }
+
+    .header2-img {
+        width: 100% !important;
+        margin: auto;
+    }
+
+    #header2 {
+
+        padding: 1rem !important;
+    }
+
+    .rating {
+        width: 80% !important;
+    }
+
+    .food-container {
+        padding: 0rem;
+    }
+
+    .signedin-btn {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .footer-vec {
+        padding-bottom: 1rem;
+    }
+
+    .icon2 {
+
+        text-align: center;
+        margin-right: 0rem;
+
+    }
+
+    .copy {
+
+        display: inline-block;
+
+    }
+
+    .copy-right {
+
+        display: flex;
+        margin: auto;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+
+    body {
+
+        margin: auto;
+        overflow-x: hidden;
+
+    }
+
+    .navbar {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .nav1 {
+        display: block;
+        margin: auto;
+    }
+
+
+    .dropdown {
+
+        margin: auto;
+        display: inline-block;
+        padding-right: 1rem;
+
+    }
+
+    .has-search {
+        width: 90%;
+        padding-top: 1rem;
+    }
+
+    .nav2 {
+
+        padding-right: 0rem !important;
+        margin: auto;
+        padding-top: 1rem;
+
+
+    }
+
+    .nav3 {
+
+        text-align: center;
+        padding-top: 1rem;
+        padding-right: 1rem;
+    }
+
+    .header-p1 {
+        font-size: 500%;
+
+    }
+
+
+    .header-p2 {
+        font-size: 150%;
+    }
+
+    header {
+        padding: 2rem;
+    }
+
+    #search-restraunt {
+
+        padding: 0rem;
+        padding-top: 1rem;
+
+    }
+
+    .has-search2 {
+
+        width: 270px;
+
+    }
+
+    .card-img {
+
+        float: none;
+
+    }
+
+    .card-body {
+
+        display: block;
+        text-align: center;
+
+    }
+
+
+    .fa-circle {
+
+        color: rgb(103, 189, 38);
+        text-align: center;
+
+    }
+
+
+    .open {
+
+        font-size: 1rem;
+        text-align: center;
+        align-items: baseline;
+    }
+
+    #offers {
+
+        padding: 0rem;
+
+    }
+
+    #offer {
+        font-size: 0.7rem;
+        width: 100%;
+        padding: 0rem;
+        margin: 0rem;
+        background-position: center;
+    }
+
+    #app {
+
+        padding-top: 2rem !important;
+        padding: 0rem;
+
+    }
+
+    .sofra-btn2 {
+        background-repeat: no-repeat;
+        background-position-y: inherit;
+        font-size: 2rem;
+        padding: 20px 50px;
+    }
+
+
+    #register2 {
+
+        padding: 0rem;
+
+
+    }
+
+    #formContent3 {
+        padding: 0rem;
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        padding: 0px;
+        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+
+    #formContent2 {
+        padding: 1rem;
+        width: 100%;
+        position: relative;
+        padding: 0px;
+        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .reg-a1 {
+
+        padding-left: 0rem;
+    }
+
+    .sofra-btn3 {
+
+        padding: 5px 30px;
+        margin: auto;
+
+    }
+
+    .calender {
+
+        margin: auto;
+
+    }
+
+    .date {
+        margin-left: 1rem;
+    }
+
+
+    #cart2 {
+        padding: 2rem;
+    }
+
+    .rating2 {
+
+        margin-right: -2rem;
+        margin-top: 1rem;
+    }
+
+
+    .header2-img {
+        width: 100%;
+        margin: auto;
+    }
+
+    #header2 {
+
+        padding: 1rem;
+    }
+
+    .rating {
+        width: 80%;
+    }
+
+    .food-container {
+        padding: 0rem;
+    }
+
+
+    .signedin-btn {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-text {
+        text-align: center;
+        padding-bottom: 0rem;
+    }
+
+
+
+    .footer-text {
+        text-align: center;
+        padding-bottom: 0rem;
+    }
+
+    .footer-vec {
+        padding-bottom: 1rem;
+    }
+
+
+
+    .icon2 {
+
+        text-align: center;
+        margin-right: 0rem;
+
+    }
+
+    .copy {
+
+        display: inline-block;
+
+    }
+
+    .copy-right {
+
+        display: flex;
+        margin: auto;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width:1023px) {
+
+
+    .dropdown {
+
+        margin: auto;
+        display: inline-block;
+        padding-right: 1rem;
+        padding-left: 0.2rem;
+
+    }
+
+    .nav2 {
+        padding-right: 2rem;
+    }
+
+    .has-search {
+
+        width: 22%;
+
+    }
+
+    .card-img {
+
+        float: none;
+        width: 90px;
+
+    }
+
+    .card-body {
+
+        display: block;
+        text-align: center;
+
+    }
+
+
+    .open {
+
+        font-size: 1rem;
+        text-align: center;
+        align-items: baseline;
+    }
+
+    #offers {
+
+        padding: 1rem;
+
+    }
+
+    #offer {
+        font-size: 0.7rem;
+        width: 100%;
+        padding: 0rem;
+        margin: 0rem;
+        background-position: center;
+    }
+
+    #app {
+
+        padding-top: 2rem !important;
+        padding: 0rem;
+
+    }
+
+    .sofra-btn2 {
+        background-repeat: no-repeat;
+        background-position-y: inherit;
+        font-size: 2rem;
+        padding: 20px 50px;
+    }
+
+
+    #register2 {
+
+        padding: 0rem;
+
+    }
+
+    #formContent3 {
+        padding: 0rem;
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        padding: 0px;
+        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+
+    #formContent2 {
+        padding: 1rem !important;
+        width: 100%;
+        position: relative;
+        padding: 0px;
+        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .reg-a1 {
+
+        padding-left: 0rem;
+    }
+
+    .sofra-btn3 {
+
+        padding: 5px 30px;
+        margin: auto;
+
+    }
+
+    .calender {
+
+        margin: auto;
+
+    }
+
+    .date {
+        margin-left: 1rem;
+    }
+
+    #cart {
+        padding: 1rem;
+    }
+
+
+    #cart2 {
+        padding: 2rem;
+    }
+
+    .footer-text {
+        text-align: center;
+        padding-bottom: 0rem;
+    }
+
+
+    .res-nav a h1 {
+        font-size: 1.5rem;
+    }
+
+
+    .rating2 {
+
+        margin-right: -2rem;
+        margin-top: 1rem;
+    }
+
+
+    .header2-img {
+        width: 100%;
+        margin: auto;
+    }
+
+    #header2 {
+
+        padding: 3rem;
+    }
+
+    .rating {
+        width: 50%;
+    }
+
+    .food-container {
+        padding: 0rem;
+    }
+
+
+    .signedin-btn {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-text {
+
+        text-align: center;
+        padding-bottom: 1rem;
+
+    }
+
+    .footer-vec {
+        padding-bottom: 0rem;
+    }
+
+
+
+    .icon2 {
+
+        text-align: center;
+        margin-right: 0rem;
+
+    }
+
+    .copy {
+
+        display: inline-block;
+
+    }
+
+    .copy-right {
+
+        display: flex;
+        margin: auto;
+        text-align: center;
+        padding-top: 1rem;
+        margin-right: 0rem;
+    }
+
+}
+
+@media only screen and (max-width:1200px) {
+
+    .card-img {
+
+        float: none;
+        width: 100px;
+
+    }
+
+    .card-body {
+
+        text-align: center;
+
+    }
+
+
+    .open {
+
+        font-size: 1rem;
+        text-align: center;
+        align-items: baseline;
+    }
+
+    #offers {
+
+        padding: 1rem;
+
+    }
+
+    #offer {
+        font-size: 0.7rem;
+        width: 100%;
+        padding: 0rem;
+        margin: 0rem;
+        background-position: center;
+    }
+
+    #app {
+
+        padding-top: 2rem !important;
+        padding: 0rem;
+
+    }
+
+    .sofra-btn2 {
+        background-repeat: no-repeat;
+        background-position-y: inherit;
+        font-size: 2rem;
+        padding: 20px 50px;
+    }
+
+
+    #formContent3 {
+        padding: 0rem;
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        padding: 0px;
+        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+
+    #cart2 {
+        padding: 2rem;
+    }
+
+
+    .header2-img {
+        width: 70%;
+        margin: auto;
+    }
+
+    #header2 {
+
+        padding: 3rem;
+
+    }
+
+    .rating {
+        width: 40%;
+    }
+
+    .food-container {
+        padding: 0rem;
+    }
+
+
+    .signedin-btn {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer-text {
+
+        text-align: center;
+        padding-bottom: 1rem;
+
+    }
+
+    .footer-vec {
+        padding-bottom: 0rem;
+    }
+
+
+
+    .icon2 {
+
+        text-align: center;
+        margin-right: 0rem;
+
+    }
+
+    .copy {
+
+        display: inline-block;
+
+    }
+
+    .copy-right {
+
+        display: flex;
+        margin: auto;
+        text-align: center;
+        padding-top: 1rem;
+        margin-right: 0rem;
+    }
+
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+
+        float: right;
+        display: block;
+
+    }
+
+
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+
+    .topnav .pages-nav .responsive {
+
+        position: relative;
+        display: block;
+        padding: 2rem;
+
+    }
+
+    #logo {
+
+        display: none;
+
+    }
+
+    .topnav .pages-nav .responsive a.icon {
+
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 2rem;
+
+    }
+
+    .topnav.responsive .pages-nav a {
+
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
