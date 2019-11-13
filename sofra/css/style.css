@@ -173,25 +173,25 @@ header {
 
 .sofra-btn3:hover {
 
-  background-color: #f52b7f98;
   color: white;
 
 }
 
 .sofra-btn:hover {
 
-  background-color: #f52b7fb4;
   color: white;
 
 }
 
 a {
   text-decoration: none;
+  border: none;
 }
 
 a:hover {
   text-decoration: none;
   color: white;
+  border: none;
 }
 
 #search-restraunt {
@@ -245,6 +245,8 @@ a:hover {
   -moz-border-radius: 0px;
   border-radius: 50px;
   text-align: center;
+  background-color: white;
+  border: none;
 
 }
 
@@ -838,7 +840,7 @@ h2.active {
 
 .sofra-btn4:hover {
 
-  background-color: rgba(46, 14, 70, 0.61);
+  background-color: rgb(46, 14, 70);
   color: white;
 
 }
@@ -857,7 +859,6 @@ h2.active {
 .active {
 
   border-bottom: solid 8px rgba(46, 14, 70, 0.61);
-
 }
 
 #res-nav {
@@ -880,13 +881,6 @@ h2.active {
   color: white;
 }
 
-
-.res-nav:hover {
-
-  color: white;
-  border-bottom: solid 8px rgba(46, 14, 70, 0.61);
-
-}
 
 .cart-row2 {
   margin: auto;
@@ -958,6 +952,23 @@ h2.active {
 }
 
 
+.sofra-btnindex {
+  padding: 5px 55px;
+  background-color: rgb(33, 172, 33);
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.089);
+}
+
+
+.sofra-btnindex:hover {
+  padding: 5px 55px;
+  background-color: rgb(33, 172, 33);
+  color: white;
+}
+
+
 .sofra-btn5c {
   padding: 5px 35px;
   background-color: rgb(33, 172, 33);
@@ -969,14 +980,14 @@ h2.active {
 
 .sofra-btn5:hover {
   padding: 5px 35px;
-  background-color: rgba(33, 172, 33, 0.418);
+  background-color: rgb(33, 172, 33);
   color: white;
 }
 
 
 .sofra-btn5c:hover {
   padding: 5px 35px;
-  background-color: rgba(33, 172, 33, 0.418);
+  background-color: rgb(33, 172, 33);
   color: white;
 }
 
@@ -994,7 +1005,7 @@ h2.active {
 
 .sofra-btn6:hover {
   padding: 5px 42px;
-  background-color: rgba(207, 51, 51, 0.61);
+  background-color: rgb(207, 51, 51);
   color: white;
 }
 
@@ -1011,7 +1022,7 @@ h2.active {
 
 .sofra-btn7 a:hover {
   padding: 10px 10px;
-  background-color: #db2a50c0;
+  background-color: #db2a50;
   color: white;
 }
 
@@ -1052,7 +1063,7 @@ h2.active {
 
 .sofra-btn8:hover {
 
-  background-color: rgba(46, 14, 70, 0.61);
+  background-color: rgb(46, 14, 70);
   color: white;
 
 }
@@ -1082,13 +1093,13 @@ h2.active {
   padding-bottom: 2rem;
 }
 
-.modal-header{
+.modal-header {
   background-color: #ac104cc2;
   text-align: center;
   color: white;
 }
 
-.modal-title{
+.modal-title {
   text-align: center;
   margin: auto;
   margin-left: -2rem;
@@ -1114,7 +1125,7 @@ h2.active {
   background: url(../imgs/bg\ img.png);
 }
 
-.reg-modal{
+.reg-modal {
   display: grid;
 }
 
