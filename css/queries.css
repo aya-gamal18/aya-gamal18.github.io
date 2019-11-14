@@ -1,6 +1,5 @@
 @media only screen and (max-width: 480px) {
 
-
     .navbar {
 
         padding-left: 0rem !important;
@@ -11,7 +10,6 @@
 
         right: 20px !important;
     }
-
 
     #vantajs {
 
@@ -55,7 +53,6 @@
         padding-top: 3rem;
 
     }
-
 
     .img-fluid {
 
@@ -110,8 +107,6 @@
         padding-left: 0rem !important;
 
     }
-
-
 
     #vantajs {
 
@@ -191,8 +186,6 @@
         padding-left: 0rem !important;
 
     }
-
-
 
     #vantajs {
 
@@ -276,8 +269,6 @@
 }
 
 @media only screen and (max-width: 1200px) {
-
-
 
     #vantajs {
 

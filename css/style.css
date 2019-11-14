@@ -14,10 +14,8 @@
 }
 
 a {
-
   text-decoration: none !important;
   color: inherit;
-
 }
 
 a:hover {
@@ -25,7 +23,6 @@ a:hover {
 }
 
 body {
-
   color: rgb(36, 36, 51);
   font-family: 'Raleway';
   text-align: center;
@@ -36,7 +33,6 @@ body {
   overflow-x: hidden;
   width: 100%;
 }
-
 
 .disable-hover {
   pointer-events: none;
@@ -82,14 +78,12 @@ nav.scrolled {
 
 }
 
-
 nav.navbar {
   width: inherit;
   left: 50%;
   transform: translateX(-50%);
   margin: auto;
 }
-
 
 .navbar-collapse.show {
 
@@ -114,12 +108,10 @@ nav .link-wrap div:hover {
 
 }
 
-
 .navbar-toggler-icon {
 
   color: white;
 }
-
 
 .nav-link {
 
@@ -185,8 +177,6 @@ nav .active {
 
 }
 
-
-
 .fa-caret-square-right:hover {
 
   transform: rotate(90deg);
@@ -199,8 +189,6 @@ nav .active {
   border-color: rgba(135, 207, 235, 0.596);
   color: white
 }
-
-
 
 .bold {
   font-family: 'Raleway-bold';
@@ -260,9 +248,9 @@ nav .active {
 }
 
 .demo {
+
   height: 130px;
   animation-duration: 3s;
-
 
 }
 
@@ -315,7 +303,6 @@ nav .active {
   z-index: -1;
   margin: 0 auto;
 }
-
 
 #hexagon:before {
   content: "";
@@ -452,7 +439,6 @@ nav .active {
   margin: 0 0 15px;
 }
 
-
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
@@ -521,8 +507,6 @@ nav .active {
 
 }
 
-
-
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
@@ -553,7 +537,6 @@ nav .active {
 
 }
 
-
 .btn-primary {
 
   background-color: rgba(0, 0, 0, 0.4);
@@ -574,7 +557,6 @@ nav .active {
   color: white !important;
 
 }
-
 
 .carousel {
 
@@ -646,8 +628,6 @@ nav .active {
   background-color: #e0e7ee;
 }
 
-
-
 #portfolio {
 
   background: url(../imgs/bg.jpg) rgba(47, 42, 78, 0.7);
@@ -713,13 +693,11 @@ nav .active {
   padding: 3rem;
 }
 
-
 label {
 
   float: left;
 
 }
-
 
 footer {
 
@@ -749,7 +727,6 @@ footer {
 
 }
 
-
 .icon-wrap,
 .icon {
 
@@ -778,8 +755,6 @@ footer .icon-wrap .icon:hover {
 
   color: #fff;
 }
-
-
 
 footer .footnote {
 
