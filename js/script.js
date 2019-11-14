@@ -45,6 +45,7 @@
   });
 
 
+  $('#myModal').modal(options)
 
 
 
@@ -61,3 +62,5 @@
 
 
 })(jQuery); // End of use strict
+
+
