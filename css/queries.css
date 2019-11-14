@@ -1,9 +1,15 @@
 @media only screen and (max-width: 480px) {
 
+
     .navbar {
 
         padding-left: 0rem !important;
 
+    }
+
+    #topcontrol {
+
+        right: 20px !important;
     }
 
 
@@ -54,7 +60,7 @@
     .img-fluid {
 
         height: 200px;
-        width:max-content;
+        width: max-content;
 
     }
 
@@ -148,10 +154,10 @@
         padding-top: 3rem;
 
     }
-     
-    .INTRO{
-    font-size:60%;
-     }
+
+    .INTRO {
+        font-size: 60%;
+    }
 
     .img-fluid {
 
@@ -352,5 +358,3 @@
         padding-bottom: 1rem;
     }
 }
-
-

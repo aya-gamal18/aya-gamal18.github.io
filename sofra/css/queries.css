@@ -1,5 +1,41 @@
 /* small phones from 0 to 480px*/
 
+@media only screen and (max-width: 320px) {
+    .dicon {
+        left: 65px !important;
+        bottom: 111px;
+    }
+
+}
+
+@media only screen and (min-width: 321px) and (max-width:374px) {
+
+    .dicon {
+        left: 75px !important;
+        bottom: 111px;
+    }
+
+    .dicon2 {
+
+        left: 75px !important;
+
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 480px) {
+    .dicon {
+        left: 95px !important;
+        bottom: 111px;
+    }
+
+    .dicon2 {
+
+        left: 95px !important;
+
+    }
+}
+
+
 @media only screen and (max-width: 480px) {
 
 
@@ -636,6 +672,9 @@
 
 @media only screen and (max-width:1023px) {
 
+    .dicon {
+        left: 240px;
+    }
 
     .dropdown {
 
