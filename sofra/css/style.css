@@ -119,7 +119,7 @@ a:hover {
 
 header {
 
-  background: url(../imgs/header.png);
+  background: url(../imgs/header-min.png);
   margin: auto;
   text-align: center;
   color: white;
@@ -196,7 +196,7 @@ a:hover {
 
 #search-restraunt {
 
-  background: url(../imgs/Group\ 1034-min.png);
+  background: url(../imgs/Group\ 1034-min.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
