@@ -513,6 +513,15 @@ nav .active {
   }
 }
 
+.modal-backdrop {
+  display: none;
+}
+
+.modal {
+  background: rgba(0,0,0,0.5);
+}  
+
+
 .modal {
   padding-right: 0rem !important;
 }
@@ -611,7 +620,7 @@ nav .active {
   /* Safari and Chrome */
   z-index: 1051;
   width: 2px;
-  height: 60px;
+  height: 30px;
   margin-left: 35px;
   /* IE 9 */
   transform: rotate(45deg);
@@ -622,7 +631,7 @@ nav .active {
   /* Safari and Chrome */
   z-index: 1052;
   width: 2px;
-  height: 60px;
+  height: 30px;
   /* IE 9 */
   transform: rotate(90deg);
   background-color: #e0e7ee;
