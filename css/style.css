@@ -512,9 +512,6 @@ nav .active {
     margin: 0 0 30px;
   }
 }
-#exampleModalCenter{
-  z-index: 1050 !important;
-}
 
 .modal {
   padding-right: 0rem !important;

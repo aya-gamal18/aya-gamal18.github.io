@@ -45,7 +45,7 @@
   });
 
 
-  $('#myModal').modal(options)
+  $('#myModal').appendTo("body") ;
 
 
 
