@@ -56,6 +56,12 @@ body {
 
 }
 
+.download{
+  color:#E31B6D;
+  padding-top: 1rem;
+  font-weight: bold;
+  font-size: small;
+}
 nav {
 
   height: 50px;
