@@ -56,12 +56,13 @@ body {
 
 }
 
-.download{
-  color:#E31B6D;
+.download {
+  color: #E31B6D;
   padding-top: 1rem;
   font-weight: bold;
   font-size: small;
 }
+
 nav {
 
   height: 50px;
@@ -524,8 +525,8 @@ nav .active {
 }
 
 .modal {
-  background: rgba(0,0,0,0.5);
-}  
+  background: rgba(0, 0, 0, 0.5);
+}
 
 
 .modal {
